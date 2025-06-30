@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"math/rand"
 	"os"
 	"os/signal"
 	"syscall"
@@ -44,14 +45,14 @@ func main() {
 		Info("Listener stopped successfully")
 	}()
 
-	// For Test Event
+	//Inject event
+	rand.Seed(time.Now().UnixNano())
+
 	go func() {
-		for {
-			event := PopEvent()
-			if event != "" {
-				Info("[EVENT] " + event)
-			}
-			time.Sleep(100 * time.Millisecond)
+		for i := 1; i <= 10; i++ {
+			randomNumber := rand.Intn(235) + 2
+			InjectMockEvent(fmt.Sprintf(`{"cmd":100%d, "ip":"192.168.1.%d", "port":8000", "mock":true}`, i, randomNumber))
+			time.Sleep(1 * time.Second)
 		}
 	}()
 

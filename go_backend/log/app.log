@@ -113,3 +113,86 @@
 [2025-06-30 16:21:08] [INFO] Shutting down...
 [2025-06-30 16:21:09] [INFO] Listener stopped successfully
 [2025-06-30 16:21:09] [INFO] Hikvision SDK cleaned up successfully
+[2025-06-30 18:47:49] [INFO] Hikvision SDK initialized successfully
+[2025-06-30 18:47:50] [INFO] Listener started successfully
+[2025-06-30 18:47:50] [INFO] Listening on port: 8000
+[2025-06-30 18:47:57] [INFO] Shutting down...
+[2025-06-30 18:47:58] [INFO] Listener stopped successfully
+[2025-06-30 18:47:58] [INFO] Hikvision SDK cleaned up successfully
+[2025-06-30 18:57:51] [INFO] Hikvision SDK initialized successfully
+[2025-06-30 18:57:51] [INFO] Listener started successfully
+[2025-06-30 18:57:51] [INFO] Listening on port: 8000
+[2025-06-30 18:57:51] [INFO] [EVENT] {"cmd":1000, "ip":"192.168.1.1", "port":8000", "mock":true}
+[2025-06-30 18:57:52] [INFO] [EVENT] {"cmd":1000, "ip":"192.168.1.2", "port":8000", "mock":true}
+[2025-06-30 18:57:53] [INFO] [EVENT] {"cmd":1000, "ip":"192.168.1.3", "port":8000", "mock":true}
+[2025-06-30 18:57:54] [INFO] [EVENT] {"cmd":1000, "ip":"192.168.1.4", "port":8000", "mock":true}
+[2025-06-30 18:57:55] [INFO] [EVENT] {"cmd":1000, "ip":"192.168.1.5", "port":8000", "mock":true}
+[2025-06-30 18:57:56] [INFO] [EVENT] {"cmd":1000, "ip":"192.168.1.6", "port":8000", "mock":true}
+[2025-06-30 18:57:57] [INFO] [EVENT] {"cmd":1000, "ip":"192.168.1.7", "port":8000", "mock":true}
+[2025-06-30 18:57:58] [INFO] [EVENT] {"cmd":1000, "ip":"192.168.1.8", "port":8000", "mock":true}
+[2025-06-30 18:57:59] [INFO] [EVENT] {"cmd":1000, "ip":"192.168.1.9", "port":8000", "mock":true}
+[2025-06-30 18:58:00] [INFO] [EVENT] {"cmd":1000, "ip":"192.168.1.10", "port":8000", "mock":true}
+[2025-06-30 18:59:06] [INFO] Shutting down...
+[2025-06-30 18:59:06] [INFO] Listener stopped successfully
+[2025-06-30 18:59:06] [INFO] Hikvision SDK cleaned up successfully
+[2025-06-30 18:59:10] [INFO] Hikvision SDK initialized successfully
+[2025-06-30 18:59:10] [INFO] Listener started successfully
+[2025-06-30 18:59:10] [INFO] Listening on port: 8000
+[2025-06-30 18:59:10] [INFO] [EVENT] {"cmd":1001, "ip":"192.168.1.1", "port":8000", "mock":true}
+[2025-06-30 18:59:11] [INFO] [EVENT] {"cmd":1002, "ip":"192.168.1.2", "port":8000", "mock":true}
+[2025-06-30 18:59:12] [INFO] [EVENT] {"cmd":1003, "ip":"192.168.1.3", "port":8000", "mock":true}
+[2025-06-30 18:59:13] [INFO] [EVENT] {"cmd":1004, "ip":"192.168.1.4", "port":8000", "mock":true}
+[2025-06-30 18:59:14] [INFO] [EVENT] {"cmd":1005, "ip":"192.168.1.5", "port":8000", "mock":true}
+[2025-06-30 18:59:15] [INFO] [EVENT] {"cmd":1006, "ip":"192.168.1.6", "port":8000", "mock":true}
+[2025-06-30 18:59:16] [INFO] [EVENT] {"cmd":1007, "ip":"192.168.1.7", "port":8000", "mock":true}
+[2025-06-30 18:59:17] [INFO] [EVENT] {"cmd":1008, "ip":"192.168.1.8", "port":8000", "mock":true}
+[2025-06-30 18:59:18] [INFO] [EVENT] {"cmd":1009, "ip":"192.168.1.9", "port":8000", "mock":true}
+[2025-06-30 18:59:19] [INFO] [EVENT] {"cmd":10010, "ip":"192.168.1.10", "port":8000", "mock":true}
+[2025-06-30 19:04:10] [INFO] Shutting down...
+[2025-06-30 19:04:10] [INFO] Listener stopped successfully
+[2025-06-30 19:04:10] [INFO] Hikvision SDK cleaned up successfully
+[2025-06-30 19:04:16] [INFO] Hikvision SDK initialized successfully
+[2025-06-30 19:04:16] [INFO] Listener started successfully
+[2025-06-30 19:04:16] [INFO] Listening on port: 8000
+[2025-06-30 19:04:16] [INFO] [EVENT] {"cmd":1001, "ip":"192.168.1.210", "port":8000", "mock":true}
+[2025-06-30 19:04:17] [INFO] [EVENT] {"cmd":1002, "ip":"192.168.1.210", "port":8000", "mock":true}
+[2025-06-30 19:04:18] [INFO] [EVENT] {"cmd":1003, "ip":"192.168.1.210", "port":8000", "mock":true}
+[2025-06-30 19:04:19] [INFO] [EVENT] {"cmd":1004, "ip":"192.168.1.210", "port":8000", "mock":true}
+[2025-06-30 19:04:20] [INFO] [EVENT] {"cmd":1005, "ip":"192.168.1.210", "port":8000", "mock":true}
+[2025-06-30 19:04:21] [INFO] [EVENT] {"cmd":1006, "ip":"192.168.1.210", "port":8000", "mock":true}
+[2025-06-30 19:04:22] [INFO] [EVENT] {"cmd":1007, "ip":"192.168.1.210", "port":8000", "mock":true}
+[2025-06-30 19:04:23] [INFO] [EVENT] {"cmd":1008, "ip":"192.168.1.210", "port":8000", "mock":true}
+[2025-06-30 19:04:24] [INFO] [EVENT] {"cmd":1009, "ip":"192.168.1.210", "port":8000", "mock":true}
+[2025-06-30 19:04:25] [INFO] [EVENT] {"cmd":10010, "ip":"192.168.1.210", "port":8000", "mock":true}
+[2025-06-30 19:04:28] [INFO] Shutting down...
+[2025-06-30 19:04:29] [INFO] Listener stopped successfully
+[2025-06-30 19:04:29] [INFO] Hikvision SDK cleaned up successfully
+[2025-06-30 19:04:30] [INFO] Hikvision SDK initialized successfully
+[2025-06-30 19:04:30] [INFO] Listener started successfully
+[2025-06-30 19:04:30] [INFO] Listening on port: 8000
+[2025-06-30 19:04:30] [INFO] [EVENT] {"cmd":1001, "ip":"192.168.1.13", "port":8000", "mock":true}
+[2025-06-30 19:04:31] [INFO] [EVENT] {"cmd":1002, "ip":"192.168.1.13", "port":8000", "mock":true}
+[2025-06-30 19:04:32] [INFO] [EVENT] {"cmd":1003, "ip":"192.168.1.13", "port":8000", "mock":true}
+[2025-06-30 19:04:33] [INFO] [EVENT] {"cmd":1004, "ip":"192.168.1.13", "port":8000", "mock":true}
+[2025-06-30 19:04:34] [INFO] [EVENT] {"cmd":1005, "ip":"192.168.1.13", "port":8000", "mock":true}
+[2025-06-30 19:04:35] [INFO] [EVENT] {"cmd":1006, "ip":"192.168.1.13", "port":8000", "mock":true}
+[2025-06-30 19:04:36] [INFO] [EVENT] {"cmd":1007, "ip":"192.168.1.13", "port":8000", "mock":true}
+[2025-06-30 19:04:37] [INFO] [EVENT] {"cmd":1008, "ip":"192.168.1.13", "port":8000", "mock":true}
+[2025-06-30 19:04:38] [INFO] [EVENT] {"cmd":1009, "ip":"192.168.1.13", "port":8000", "mock":true}
+[2025-06-30 19:04:39] [INFO] [EVENT] {"cmd":10010, "ip":"192.168.1.13", "port":8000", "mock":true}
+[2025-06-30 19:04:44] [INFO] Shutting down...
+[2025-06-30 19:04:44] [INFO] Listener stopped successfully
+[2025-06-30 19:04:44] [INFO] Hikvision SDK cleaned up successfully
+[2025-06-30 19:05:13] [INFO] Hikvision SDK initialized successfully
+[2025-06-30 19:05:13] [INFO] Listener started successfully
+[2025-06-30 19:05:13] [INFO] Listening on port: 8000
+[2025-06-30 19:05:13] [INFO] [EVENT] {"cmd":1001, "ip":"192.168.1.145", "port":8000", "mock":true}
+[2025-06-30 19:05:14] [INFO] [EVENT] {"cmd":1002, "ip":"192.168.1.85", "port":8000", "mock":true}
+[2025-06-30 19:05:15] [INFO] [EVENT] {"cmd":1003, "ip":"192.168.1.227", "port":8000", "mock":true}
+[2025-06-30 19:05:16] [INFO] [EVENT] {"cmd":1004, "ip":"192.168.1.99", "port":8000", "mock":true}
+[2025-06-30 19:05:17] [INFO] [EVENT] {"cmd":1005, "ip":"192.168.1.18", "port":8000", "mock":true}
+[2025-06-30 19:05:18] [INFO] [EVENT] {"cmd":1006, "ip":"192.168.1.50", "port":8000", "mock":true}
+[2025-06-30 19:05:19] [INFO] [EVENT] {"cmd":1007, "ip":"192.168.1.85", "port":8000", "mock":true}
+[2025-06-30 19:05:20] [INFO] [EVENT] {"cmd":1008, "ip":"192.168.1.128", "port":8000", "mock":true}
+[2025-06-30 19:05:21] [INFO] [EVENT] {"cmd":1009, "ip":"192.168.1.133", "port":8000", "mock":true}
+[2025-06-30 19:05:22] [INFO] [EVENT] {"cmd":10010, "ip":"192.168.1.132", "port":8000", "mock":true}

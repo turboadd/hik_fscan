@@ -42,11 +42,11 @@ func StopListening() {
 
 func PollEvents() {
 	for {
-		evt := C.GoString(C.hik_get_last_event())
+		evt := PopEvent()
 		if evt != "" {
-			fmt.Println("[EVENT]", evt)
+			Info("[EVENT] " + evt)
 		}
-		time.Sleep(1 * time.Second)
+		time.Sleep(200 * time.Millisecond)
 	}
 }
 
@@ -55,12 +55,12 @@ func PopEvent() string {
 }
 
 func GetQueueSize() int {
-	return int(C.hit_queue_size())
+	return int(C.hik_queue_size())
 }
 
 // For Test Event
 func InjectMockEvent(json string) {
 	cstr := C.CString(json)
 	defer C.free(unsafe.Pointer(cstr))
-	C.hik_enqueue_event(sctr)
+	C.hik_enqueue_event(cstr)
 }
