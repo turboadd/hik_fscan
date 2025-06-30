@@ -1,2 +1,2 @@
-C:\msys64\mingw64\bin\ar.exe qc E:\Projects\hik_fcan\libs\libhik_adapter.a CMakeFiles/hik_adapter.dir/src/hik_adapter.cpp.obj CMakeFiles/hik_adapter.dir/src/listener.cpp.obj
-C:\msys64\mingw64\bin\ranlib.exe E:\Projects\hik_fcan\libs\libhik_adapter.a
+C:\msys64\mingw64\bin\ar.exe qc E:\Projects\hik_fscan\libs\libhik_adapter.a CMakeFiles/hik_adapter.dir/src/hik_adapter.cpp.obj CMakeFiles/hik_adapter.dir/src/listener.cpp.obj
+C:\msys64\mingw64\bin\ranlib.exe E:\Projects\hik_fscan\libs\libhik_adapter.a

@@ -1,7 +1,7 @@
 CMakeFiles/hik_adapter.dir/src/hik_adapter.cpp.obj: \
- E:\Projects\hik_fcan\src\hik_adapter.cpp \
- E:/Projects/hik_fcan/includes/hik_adapter.h \
- E:/Projects/hik_fcan/includes/HCNetSDK.h \
+ E:\Projects\hik_fscan\src\hik_adapter.cpp \
+ E:/Projects/hik_fscan/includes/hik_adapter.h \
+ E:/Projects/hik_fscan/includes/HCNetSDK.h \
  C:/msys64/mingw64/include/winsock2.h \
  C:/msys64/mingw64/include/_mingw_unicode.h \
  C:/msys64/mingw64/include/windows.h C:/msys64/mingw64/include/_mingw.h \

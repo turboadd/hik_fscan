@@ -3,7 +3,7 @@
 #include <iostream>
 #include <mutex>
 #include <string>
-#include <stdio.h>
+#include <stdio.h> 
 
 
 static LONG g_listenHandle = -1;
@@ -22,8 +22,7 @@ int hik_start_listening(int port) {
     if (g_listenHandle < 0) {
         printf("StartListen failed. Error: %d\n", NET_DVR_GetLastError());
         return -1;
-    }
-    printf("Listening on port %d\n", port);
+    }    
     return 0;
 }
 

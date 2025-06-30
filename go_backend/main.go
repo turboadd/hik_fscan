@@ -2,21 +2,46 @@ package main
 
 import (
 	"fmt"
+	"os"
+	"os/signal"
+	"syscall"
 )
 
 func main() {
+	// Start Logger
+	err := InitLogger("log/app.log", LevelDebug)
+	if err != nil {
+		fmt.Println("Logging setup failed:", err)
+		os.Exit(1)
+	}
+
+	// Load Config
+	if err := LoadConfig("../config.json"); err != nil {
+		Error(fmt.Sprintf("Failed to load config: %v", err))
+	}
+
+	// Initilization Hikvision SDK
 	if err := InitHik(); err != nil {
-		fmt.Println("Init Error:", err)
+		Error(fmt.Sprintln("Hikvision SDK initialization failed"))
 		return
 	}
-	defer CleanupHik()
+	defer func() {
+		CleanupHik()
+		Info("Hikvision SDK cleaned up successfully")
+	}()
 
-	fmt.Println("Hikvision SDK initialized successfully")
+	Info("Hikvision SDK initialized successfully")
 
-	if err := StartListening(8000); err != nil {
-		fmt.Println("Start Listening Error:", err)
+	if err := StartListening(AppConfig.ListenPort); err != nil {
+		Error(fmt.Sprintf("Failed to start listener on port %d: %v", AppConfig.ListenPort, err))
+	} else {
+		Info("Listener started successfully")
+		Info(fmt.Sprint("Listening on port: ", AppConfig.ListenPort))
 	}
-	defer StopListening()
+	defer func() {
+		StopListening()
+		Info("Listener stopped successfully")
+	}()
 
 	// // For Test Event
 	// go func() {
@@ -28,8 +53,11 @@ func main() {
 
 	go PollEvents()
 
-	fmt.Println("Press Ctl+C to stop...")
-	select {}
+	quit := make(chan os.Signal, 1)
+	signal.Notify(quit, syscall.SIGINT, syscall.SIGTERM)
 
-	// ต่อไปอาจ startListen หรือ run logic อื่น ๆ
+	fmt.Println("Press Ctl+C to stop...")
+	<-quit
+
+	Info("Shutting down...")
 }

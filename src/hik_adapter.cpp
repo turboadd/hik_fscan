@@ -11,4 +11,4 @@ int hik_init() {
 int hik_cleanup() {
     NET_DVR_Cleanup();
     return 0;
-}
+} 

@@ -122,7 +122,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Windows-windres.cmake"
   "C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/Windows.cmake"
   "C:/Program Files/CMake/share/cmake-4.0/Modules/Platform/WindowsPaths.cmake"
-  "E:/Projects/hik_fcan/CMakeLists.txt"
+  "E:/Projects/hik_fscan/CMakeLists.txt"
   "CMakeFiles/4.0.3/CMakeCCompiler.cmake"
   "CMakeFiles/4.0.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.0.3/CMakeRCCompiler.cmake"

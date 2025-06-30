@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\Projects\hik_fcan
+CMAKE_SOURCE_DIR = E:\Projects\hik_fscan
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\Projects\hik_fcan\build
+CMAKE_BINARY_DIR = E:\Projects\hik_fscan\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Projects\hik_fcan\build\CMakeFiles E:\Projects\hik_fcan\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Projects\hik_fscan\build\CMakeFiles E:\Projects\hik_fscan\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Projects\hik_fcan\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Projects\hik_fscan\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target

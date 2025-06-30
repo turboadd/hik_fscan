@@ -1,7 +1,7 @@
 CMakeFiles/hik_adapter.dir/src/listener.cpp.obj: \
- E:\Projects\hik_fcan\src\listener.cpp \
- E:/Projects/hik_fcan/includes/listener.h \
- E:/Projects/hik_fcan/includes/HCNetSDK.h \
+ E:\Projects\hik_fscan\src\listener.cpp \
+ E:/Projects/hik_fscan/includes/listener.h \
+ E:/Projects/hik_fscan/includes/HCNetSDK.h \
  C:/msys64/mingw64/include/winsock2.h \
  C:/msys64/mingw64/include/_mingw_unicode.h \
  C:/msys64/mingw64/include/windows.h C:/msys64/mingw64/include/_mingw.h \

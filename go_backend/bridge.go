@@ -11,13 +11,15 @@ package main
 import "C"
 import (
 	"fmt"
+	"os"
 	"time"
 	"unsafe"
 )
 
 func InitHik() error {
 	if C.hik_init() != 0 {
-		return fmt.Errorf("hikvision SDK initialization failed")
+		Error(fmt.Sprintln("hikvision SDK initialization failed"))
+		os.Exit(1)
 	}
 	return nil
 }
@@ -28,7 +30,8 @@ func CleanupHik() {
 
 func StartListening(port int) error {
 	if C.hik_start_listening(C.int(port)) != 0 {
-		return fmt.Errorf("listener failed to start")
+		Error(fmt.Sprintln("listener failed to start"))
+		os.Exit(1)
 	}
 	return nil
 }
