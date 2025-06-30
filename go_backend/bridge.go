@@ -50,9 +50,17 @@ func PollEvents() {
 	}
 }
 
+func PopEvent() string {
+	return C.GoString(C.hik_pop_event())
+}
+
+func GetQueueSize() int {
+	return int(C.hit_queue_size())
+}
+
 // For Test Event
 func InjectMockEvent(json string) {
 	cstr := C.CString(json)
-	C.hik_mock_event(cstr)
-	C.free(unsafe.Pointer(cstr))
+	defer C.free(unsafe.Pointer(cstr))
+	C.hik_enqueue_event(sctr)
 }

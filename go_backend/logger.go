@@ -54,7 +54,7 @@ func logWithColor(levelStr, color, msg string) {
 	fmt.Fprintln(logConsole, consoleMsg)
 
 	fileMsg := fmt.Sprintf("[%s] [%s] %s\n", timestamp, levelStr, msg)
-	fmt.Fprintln(logFileWriter, fileMsg)
+	fmt.Fprint(logFileWriter, fileMsg)
 }
 
 func Debug(msg string) {

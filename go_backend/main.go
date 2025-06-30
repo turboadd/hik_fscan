@@ -5,6 +5,7 @@ import (
 	"os"
 	"os/signal"
 	"syscall"
+	"time"
 )
 
 func main() {
@@ -43,16 +44,21 @@ func main() {
 		Info("Listener stopped successfully")
 	}()
 
-	// // For Test Event
-	// go func() {
-	// 	for {
-	// 		InjectMockEvent("{\"cmd\":1000, \"ip\":\"192.168.1.200\", \"port\":8000, \"mock\":true}")
-	// 		time.Sleep(3 * time.Second)
-	// 	}
-	// }()
+	// For Test Event
+	go func() {
+		for {
+			event := PopEvent()
+			if event != "" {
+				Info("[EVENT] " + event)
+			}
+			time.Sleep(100 * time.Millisecond)
+		}
+	}()
 
+	// Pull Evetns from C++
 	go PollEvents()
 
+	// Wait for signal Ctl+C
 	quit := make(chan os.Signal, 1)
 	signal.Notify(quit, syscall.SIGINT, syscall.SIGTERM)
 

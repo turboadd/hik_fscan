@@ -95,3 +95,21 @@
 
 [2025-06-30 16:13:05] [INFO] Hikvision SDK cleaned up successfully
 
+[2025-06-30 16:17:47] [INFO] Hikvision SDK initialized successfully
+
+[2025-06-30 16:17:47] [INFO] Listener started successfully
+
+[2025-06-30 16:17:47] [INFO] Listening on port: 8000
+
+[2025-06-30 16:18:02] [INFO] Shutting down...
+
+[2025-06-30 16:18:02] [INFO] Listener stopped successfully
+
+[2025-06-30 16:18:02] [INFO] Hikvision SDK cleaned up successfully
+
+[2025-06-30 16:21:02] [INFO] Hikvision SDK initialized successfully
+[2025-06-30 16:21:02] [INFO] Listener started successfully
+[2025-06-30 16:21:02] [INFO] Listening on port: 8000
+[2025-06-30 16:21:08] [INFO] Shutting down...
+[2025-06-30 16:21:09] [INFO] Listener stopped successfully
+[2025-06-30 16:21:09] [INFO] Hikvision SDK cleaned up successfully

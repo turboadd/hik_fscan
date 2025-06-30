@@ -3,7 +3,8 @@
 #include <iostream>
 #include <mutex>
 #include <string>
-#include <stdio.h> 
+#include <stdio.h>
+#include <queue>
 
 
 static LONG g_listenHandle = -1;
@@ -14,7 +15,7 @@ void CALLBACK MessageCallback(LONG lCommand, NET_DVR_ALARMER* pAlarmer, char* pA
     std::lock_guard<std::mutex> lock(g_eventMutex);
     char buffer[512];
     snprintf(buffer, sizeof(buffer), "{\"cmd\":%d,\"ip\":\"%s\"}", lCommand, pAlarmer->sDeviceIP);
-    g_lastEvent = buffer;
+    hik_enqueue_event(buffer);
 }
 
 int hik_start_listening(int port) {
@@ -37,9 +38,34 @@ int hik_stop_listening() {
     return 0;
 }
 
-const char* hik_get_last_event() {
-    std::lock_guard<std::mutex> lock(g_eventMutex);
-    return g_lastEvent.c_str();
+// Event Queue
+static std::queue<std::string> g_eventQueue;
+static std::mutex g_eventQueueMutex;
+
+int hik_enqueue_event(const char* json) {
+    if (!json) return -1;
+
+    std::lock_guard<std::mutex> lock(g_eventQueueMutex);
+    g_eventQueue.push(std::string(json));
+    return 0;
+}
+
+const char* hik_pop_event() {
+    static std::string lastEvent;
+    std::lock_guard<std::mutex> lock(g_eventQueueMutex);
+
+    if (g_eventQueue.empty()) {
+        return "";
+    }
+
+    lastEvent = g_eventQueue.front();
+    g_eventQueue.pop();
+    return lastEvent.c_str();
+}
+
+int hik_queue_size() {
+    std::lock_guard<std::mutex> lock(g_eventQueueMutex);
+    return static_cast<int>(g_eventQueue.size());
 }
 
 // For Testing Event to GO.

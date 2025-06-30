@@ -19,6 +19,5 @@ cmake -G "MinGW Makefiles" ..
 echo Building with mingw2-make...
 mingw32-make
 
-echo Build complete.
-pause
+echo Build complete...
 

@@ -381,4 +381,15 @@ CMakeFiles/hik_adapter.dir/src/listener.cpp.obj: \
  C:/msys64/mingw64/include/c++/15.1.0/ctime \
  C:/msys64/mingw64/include/c++/15.1.0/bits/parse_numbers.h \
  C:/msys64/mingw64/include/c++/15.1.0/bits/std_mutex.h \
- C:/msys64/mingw64/include/c++/15.1.0/bits/unique_lock.h
+ C:/msys64/mingw64/include/c++/15.1.0/bits/unique_lock.h \
+ C:/msys64/mingw64/include/c++/15.1.0/queue \
+ C:/msys64/mingw64/include/c++/15.1.0/deque \
+ C:/msys64/mingw64/include/c++/15.1.0/bits/stl_uninitialized.h \
+ C:/msys64/mingw64/include/c++/15.1.0/bits/stl_deque.h \
+ C:/msys64/mingw64/include/c++/15.1.0/bits/deque.tcc \
+ C:/msys64/mingw64/include/c++/15.1.0/vector \
+ C:/msys64/mingw64/include/c++/15.1.0/bits/stl_vector.h \
+ C:/msys64/mingw64/include/c++/15.1.0/bits/stl_bvector.h \
+ C:/msys64/mingw64/include/c++/15.1.0/bits/vector.tcc \
+ C:/msys64/mingw64/include/c++/15.1.0/bits/stl_heap.h \
+ C:/msys64/mingw64/include/c++/15.1.0/bits/stl_queue.h
