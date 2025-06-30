@@ -54,7 +54,7 @@ func main() {
 			InjectMockEvent(fmt.Sprintf(`{"cmd":100%d, "ip":"192.168.1.%d", "port":8000", "mock":true}`, i, randomNumber))
 			time.Sleep(1 * time.Second)
 		}
-	}()
+	}() 
 
 	// Pull Evetns from C++
 	go PollEvents()

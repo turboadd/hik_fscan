@@ -8,14 +8,16 @@
 
 
 static LONG g_listenHandle = -1;
-static std::string g_lastEvent;
-static std::mutex g_eventMutex;
 
 void CALLBACK MessageCallback(LONG lCommand, NET_DVR_ALARMER* pAlarmer, char* pAlarmInfo, DWORD dwBufLen, void* pUser) {
-    std::lock_guard<std::mutex> lock(g_eventMutex);
-    char buffer[512];
-    snprintf(buffer, sizeof(buffer), "{\"cmd\":%d,\"ip\":\"%s\"}", lCommand, pAlarmer->sDeviceIP);
-    hik_enqueue_event(buffer);
+    char json[1024] = {0};
+
+    if (lCommand == COMM_ALARM_ACS) {
+
+    } else {
+        snprintf(json, sizeof(json), "{\"cmd\":%d,\"ip\":\"%s\"}", lCommand, pAlarmer->sDeviceIP);
+    }    
+    hik_enqueue_event(json);
 }
 
 int hik_start_listening(int port) {
@@ -66,11 +68,4 @@ const char* hik_pop_event() {
 int hik_queue_size() {
     std::lock_guard<std::mutex> lock(g_eventQueueMutex);
     return static_cast<int>(g_eventQueue.size());
-}
-
-// For Testing Event to GO.
-int hik_mock_event(const char* json) {
-    std::lock_guard<std::mutex> lock(g_eventMutex);
-    g_lastEvent = json;
-    return 0;
 }
