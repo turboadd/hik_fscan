@@ -10,6 +10,7 @@ type Config struct {
 	ListenPort    int               `json:"listen_port"`
 	Debug         bool              `json:"debug"`
 	EventEndpoint string            `json:"eventEndpoint"`
+	AuthToken     string            `json:"AuthToken"`
 	Devices       map[string]string `json:"devices"`
 }
 

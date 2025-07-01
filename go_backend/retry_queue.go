@@ -6,6 +6,7 @@ import (
 	"net/http"
 	"sync"
 	"time"
+	"github.com/golang-jwt/jwt/v5"
 )
 
 var retryQueue = make([]string, 0)
@@ -55,4 +56,14 @@ func StartRetryWorker() {
 			SendEventWithRetry(event)
 		}
 	}()
+}
+
+func generateJWT()(string, error) {
+	claims := jwt.MapClaims{
+		"site": "siteA",
+		"exp" : time.now().Add(24 * time.Hour).Unix(),
+		"iat" : time.now().Unix(),
+	}
+	token := jwt.NewWithClaims(jwt.SigningMethodHS256, claims)
+	return token.signedString([]byte(AppConfig.AuthToken))
 }

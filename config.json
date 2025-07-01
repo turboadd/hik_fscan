@@ -5,5 +5,6 @@
     "Devices": {
         "192.168.1.100": "FrontGate",
         "192.168.1.101": "BackGate"
-    }
+    },
+    "AuthToken": "my-top-secret-signing-key"
 }
