@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"math/rand"
 	"os"
 	"os/signal"
 	"syscall"
@@ -46,18 +45,35 @@ func main() {
 	}()
 
 	//Inject event
-	rand.Seed(time.Now().UnixNano())
+	//rand.Seed(time.Now().UnixNano())
+
+	// go func() {
+	// 	for i := 1; i <= 10; i++ {
+	// 		randomNumber := rand.Intn(235) + 2
+	// 		InjectMockEvent(`{"cmd":100%d, "ip":"192.168.1.%d", "port":8000", "mock":true}`,i, randomNumber)
+	// 		time.Sleep(1 * time.Second)
+	// 	}
+	// }()
 
 	go func() {
-		for i := 1; i <= 10; i++ {
-			randomNumber := rand.Intn(235) + 2
-			InjectMockEvent(fmt.Sprintf(`{"cmd":100%d, "ip":"192.168.1.%d", "port":8000", "mock":true}`, i, randomNumber))
-			time.Sleep(1 * time.Second)
+		for {
+			InjectMockEvent(`{"cmd":1234,"ip":"192.168.1.102","mock":true}`)
+			time.Sleep(500 * time.Millisecond)
 		}
-	}() 
+	}()
 
 	// Pull Evetns from C++
-	go PollEvents()
+	//ctx, cancel := context.WithCancel(context.Background())
+	//go PollEvents(ctx)
+
+	// Start retry worker
+	StartRetryWorker()
+
+	// Send event to backend
+	StartEventDispatcher()
+
+	// Health check system
+	StartHealthCheck()
 
 	// Wait for signal Ctl+C
 	quit := make(chan os.Signal, 1)
@@ -67,4 +83,6 @@ func main() {
 	<-quit
 
 	Info("Shutting down...")
+	//cancel()
+	time.Sleep(300 * time.Millisecond)
 }

@@ -12,7 +12,6 @@ import "C"
 import (
 	"fmt"
 	"os"
-	"time"
 	"unsafe"
 )
 
@@ -36,18 +35,11 @@ func StartListening(port int) error {
 	return nil
 }
 
-func StopListening() {
-	C.hik_stop_listening()
-}
-
-func PollEvents() {
-	for {
-		evt := PopEvent()
-		if evt != "" {
-			Info("[EVENT] " + evt)
-		}
-		time.Sleep(200 * time.Millisecond)
+func StopListening() error {
+	if C.hik_stop_listening() != 0 {
+		return fmt.Errorf("listener failed to stop")
 	}
+	return nil
 }
 
 func PopEvent() string {

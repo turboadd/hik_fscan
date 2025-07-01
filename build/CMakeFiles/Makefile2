@@ -84,12 +84,12 @@ clean: CMakeFiles/hik_adapter.dir/clean
 CMakeFiles/hik_adapter.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\hik_adapter.dir\build.make CMakeFiles/hik_adapter.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\hik_adapter.dir\build.make CMakeFiles/hik_adapter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\Projects\hik_fscan\build\CMakeFiles --progress-num=1,2,3 "Built target hik_adapter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\Projects\hik_fscan\build\CMakeFiles --progress-num=1,2,3,4 "Built target hik_adapter"
 .PHONY : CMakeFiles/hik_adapter.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hik_adapter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\Projects\hik_fscan\build\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\Projects\hik_fscan\build\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/hik_adapter.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start E:\Projects\hik_fscan\build\CMakeFiles 0
 .PHONY : CMakeFiles/hik_adapter.dir/rule
@@ -101,7 +101,7 @@ hik_adapter: CMakeFiles/hik_adapter.dir/rule
 # codegen rule for target.
 CMakeFiles/hik_adapter.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\hik_adapter.dir\build.make CMakeFiles/hik_adapter.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\Projects\hik_fscan\build\CMakeFiles --progress-num=1,2,3 "Finished codegen for target hik_adapter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\Projects\hik_fscan\build\CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target hik_adapter"
 .PHONY : CMakeFiles/hik_adapter.dir/codegen
 
 # clean rule for target.

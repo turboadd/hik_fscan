@@ -71,11 +71,26 @@ include CMakeFiles/hik_adapter.dir/flags.make
 CMakeFiles/hik_adapter.dir/codegen:
 .PHONY : CMakeFiles/hik_adapter.dir/codegen
 
+CMakeFiles/hik_adapter.dir/src/alarm_parser.cpp.obj: CMakeFiles/hik_adapter.dir/flags.make
+CMakeFiles/hik_adapter.dir/src/alarm_parser.cpp.obj: CMakeFiles/hik_adapter.dir/includes_CXX.rsp
+CMakeFiles/hik_adapter.dir/src/alarm_parser.cpp.obj: E:/Projects/hik_fscan/src/alarm_parser.cpp
+CMakeFiles/hik_adapter.dir/src/alarm_parser.cpp.obj: CMakeFiles/hik_adapter.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Projects\hik_fscan\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hik_adapter.dir/src/alarm_parser.cpp.obj"
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hik_adapter.dir/src/alarm_parser.cpp.obj -MF CMakeFiles\hik_adapter.dir\src\alarm_parser.cpp.obj.d -o CMakeFiles\hik_adapter.dir\src\alarm_parser.cpp.obj -c E:\Projects\hik_fscan\src\alarm_parser.cpp
+
+CMakeFiles/hik_adapter.dir/src/alarm_parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hik_adapter.dir/src/alarm_parser.cpp.i"
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Projects\hik_fscan\src\alarm_parser.cpp > CMakeFiles\hik_adapter.dir\src\alarm_parser.cpp.i
+
+CMakeFiles/hik_adapter.dir/src/alarm_parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hik_adapter.dir/src/alarm_parser.cpp.s"
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\Projects\hik_fscan\src\alarm_parser.cpp -o CMakeFiles\hik_adapter.dir\src\alarm_parser.cpp.s
+
 CMakeFiles/hik_adapter.dir/src/hik_adapter.cpp.obj: CMakeFiles/hik_adapter.dir/flags.make
 CMakeFiles/hik_adapter.dir/src/hik_adapter.cpp.obj: CMakeFiles/hik_adapter.dir/includes_CXX.rsp
 CMakeFiles/hik_adapter.dir/src/hik_adapter.cpp.obj: E:/Projects/hik_fscan/src/hik_adapter.cpp
 CMakeFiles/hik_adapter.dir/src/hik_adapter.cpp.obj: CMakeFiles/hik_adapter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Projects\hik_fscan\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hik_adapter.dir/src/hik_adapter.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Projects\hik_fscan\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hik_adapter.dir/src/hik_adapter.cpp.obj"
 	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hik_adapter.dir/src/hik_adapter.cpp.obj -MF CMakeFiles\hik_adapter.dir\src\hik_adapter.cpp.obj.d -o CMakeFiles\hik_adapter.dir\src\hik_adapter.cpp.obj -c E:\Projects\hik_fscan\src\hik_adapter.cpp
 
 CMakeFiles/hik_adapter.dir/src/hik_adapter.cpp.i: cmake_force
@@ -90,7 +105,7 @@ CMakeFiles/hik_adapter.dir/src/listener.cpp.obj: CMakeFiles/hik_adapter.dir/flag
 CMakeFiles/hik_adapter.dir/src/listener.cpp.obj: CMakeFiles/hik_adapter.dir/includes_CXX.rsp
 CMakeFiles/hik_adapter.dir/src/listener.cpp.obj: E:/Projects/hik_fscan/src/listener.cpp
 CMakeFiles/hik_adapter.dir/src/listener.cpp.obj: CMakeFiles/hik_adapter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Projects\hik_fscan\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hik_adapter.dir/src/listener.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=E:\Projects\hik_fscan\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hik_adapter.dir/src/listener.cpp.obj"
 	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hik_adapter.dir/src/listener.cpp.obj -MF CMakeFiles\hik_adapter.dir\src\listener.cpp.obj.d -o CMakeFiles\hik_adapter.dir\src\listener.cpp.obj -c E:\Projects\hik_fscan\src\listener.cpp
 
 CMakeFiles/hik_adapter.dir/src/listener.cpp.i: cmake_force
@@ -103,17 +118,19 @@ CMakeFiles/hik_adapter.dir/src/listener.cpp.s: cmake_force
 
 # Object files for target hik_adapter
 hik_adapter_OBJECTS = \
+"CMakeFiles/hik_adapter.dir/src/alarm_parser.cpp.obj" \
 "CMakeFiles/hik_adapter.dir/src/hik_adapter.cpp.obj" \
 "CMakeFiles/hik_adapter.dir/src/listener.cpp.obj"
 
 # External object files for target hik_adapter
 hik_adapter_EXTERNAL_OBJECTS =
 
+E:/Projects/hik_fscan/libs/libhik_adapter.a: CMakeFiles/hik_adapter.dir/src/alarm_parser.cpp.obj
 E:/Projects/hik_fscan/libs/libhik_adapter.a: CMakeFiles/hik_adapter.dir/src/hik_adapter.cpp.obj
 E:/Projects/hik_fscan/libs/libhik_adapter.a: CMakeFiles/hik_adapter.dir/src/listener.cpp.obj
 E:/Projects/hik_fscan/libs/libhik_adapter.a: CMakeFiles/hik_adapter.dir/build.make
 E:/Projects/hik_fscan/libs/libhik_adapter.a: CMakeFiles/hik_adapter.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\Projects\hik_fscan\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library E:\Projects\hik_fscan\libs\libhik_adapter.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=E:\Projects\hik_fscan\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library E:\Projects\hik_fscan\libs\libhik_adapter.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\hik_adapter.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\hik_adapter.dir\link.txt --verbose=$(VERBOSE)
 

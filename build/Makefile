@@ -128,6 +128,30 @@ hik_adapter/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\hik_adapter.dir\build.make CMakeFiles/hik_adapter.dir/build
 .PHONY : hik_adapter/fast
 
+src/alarm_parser.obj: src/alarm_parser.cpp.obj
+.PHONY : src/alarm_parser.obj
+
+# target to build an object file
+src/alarm_parser.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hik_adapter.dir\build.make CMakeFiles/hik_adapter.dir/src/alarm_parser.cpp.obj
+.PHONY : src/alarm_parser.cpp.obj
+
+src/alarm_parser.i: src/alarm_parser.cpp.i
+.PHONY : src/alarm_parser.i
+
+# target to preprocess a source file
+src/alarm_parser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hik_adapter.dir\build.make CMakeFiles/hik_adapter.dir/src/alarm_parser.cpp.i
+.PHONY : src/alarm_parser.cpp.i
+
+src/alarm_parser.s: src/alarm_parser.cpp.s
+.PHONY : src/alarm_parser.s
+
+# target to generate assembly for a file
+src/alarm_parser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hik_adapter.dir\build.make CMakeFiles/hik_adapter.dir/src/alarm_parser.cpp.s
+.PHONY : src/alarm_parser.cpp.s
+
 src/hik_adapter.obj: src/hik_adapter.cpp.obj
 .PHONY : src/hik_adapter.obj
 
@@ -185,6 +209,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... hik_adapter
+	@echo ... src/alarm_parser.obj
+	@echo ... src/alarm_parser.i
+	@echo ... src/alarm_parser.s
 	@echo ... src/hik_adapter.obj
 	@echo ... src/hik_adapter.i
 	@echo ... src/hik_adapter.s

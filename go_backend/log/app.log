@@ -1,198 +1,138 @@
-[2025-06-30 15:07:05] [32mINFO [0m Hikvision SDK initialized successfully
-[2025-06-30 15:10:09] [32m[INFO][0m Hikvision SDK initialized successfully
-[2025-06-30 15:14:52] [32m[INFO][0m Hikvision SDK initialized successfully
-[2025-06-30 15:29:49] [[INFO]] Hikvision SDK initialized successfully
-
-[2025-06-30 15:32:00] [INFO] Hikvision SDK initialized successfully
-
-[2025-06-30 15:32:54] [INFO] Hikvision SDK initialized successfully
-
-[2025-06-30 15:33:57] [INFO] Hikvision SDK initialized successfully
-
-[2025-06-30 15:39:49] [INFO] Hikvision SDK initialized successfully
-
-
-[2025-06-30 15:41:14] [INFO] Hikvision SDK initialized successfully
-
-
-[2025-06-30 15:41:14] [INFO] Listener started successfully
-
-
-[2025-06-30 15:47:27] [INFO] Hikvision SDK initialized successfully
-
-
-[2025-06-30 15:47:27] [INFO] Listener started successfully
-
-
-[2025-06-30 15:47:27] [INFO] Listening on port 8000
-
-
-[2025-06-30 15:48:24] [INFO] Hikvision SDK initialized successfully
-
-[2025-06-30 15:48:24] [INFO] Listener started successfully
-
-[2025-06-30 15:48:24] [INFO] Listening on port8000
-
-[2025-06-30 15:51:01] [INFO] Hikvision SDK initialized successfully
-
-[2025-06-30 15:51:01] [INFO] Listener started successfully
-
-[2025-06-30 15:51:01] [INFO] Listening on port: 8000
-
-[2025-06-30 15:55:15] [INFO] Hikvision SDK initialized successfully
-
-[2025-06-30 15:55:15] [INFO] Listener started successfully
-
-[2025-06-30 15:55:15] [INFO] Listening on port: 8000
-
-[2025-06-30 15:56:51] [INFO] Hikvision SDK initialized successfully
-
-[2025-06-30 15:56:51] [INFO] Listener started successfully
-
-[2025-06-30 15:56:51] [INFO] Listening on port: 8000
-
-[2025-06-30 16:01:59] [INFO] Hikvision SDK initialized successfully
-
-[2025-06-30 16:01:59] [INFO] Listener started successfully
-
-[2025-06-30 16:01:59] [INFO] Listening on port: 8000
-
-[2025-06-30 16:02:07] [INFO] Shutting down...
-
-[2025-06-30 16:09:03] [INFO] Hikvision SDK initialized successfully
-
-[2025-06-30 16:09:03] [INFO] Listener started successfully
-
-[2025-06-30 16:09:03] [INFO] Listening on port: 8000
-
-[2025-06-30 16:09:08] [INFO] Shutting down...
-
-[2025-06-30 16:12:33] [INFO] Hikvision SDK initialized successfully
-
-[2025-06-30 16:12:33] [INFO] Listener started successfully
-
-[2025-06-30 16:12:33] [INFO] Listening on port: 8000
-
-[2025-06-30 16:12:37] [INFO] Shutting down...
-
-[2025-06-30 16:12:38] [INFO] Listener stoped successfully
-
-[2025-06-30 16:12:38] [INFO] Listener stopped successfully
-
-[2025-06-30 16:12:38] [INFO] Hikvision SDK cleaned up successfully
-
-[2025-06-30 16:12:38] [INFO] Hikvision SDK cleaned up successfully
-
-[2025-06-30 16:13:00] [INFO] Hikvision SDK initialized successfully
-
-[2025-06-30 16:13:00] [INFO] Listener started successfully
-
-[2025-06-30 16:13:00] [INFO] Listening on port: 8000
-
-[2025-06-30 16:13:05] [INFO] Shutting down...
-
-[2025-06-30 16:13:05] [INFO] Listener stopped successfully
-
-[2025-06-30 16:13:05] [INFO] Hikvision SDK cleaned up successfully
-
-[2025-06-30 16:17:47] [INFO] Hikvision SDK initialized successfully
-
-[2025-06-30 16:17:47] [INFO] Listener started successfully
-
-[2025-06-30 16:17:47] [INFO] Listening on port: 8000
-
-[2025-06-30 16:18:02] [INFO] Shutting down...
-
-[2025-06-30 16:18:02] [INFO] Listener stopped successfully
-
-[2025-06-30 16:18:02] [INFO] Hikvision SDK cleaned up successfully
-
-[2025-06-30 16:21:02] [INFO] Hikvision SDK initialized successfully
-[2025-06-30 16:21:02] [INFO] Listener started successfully
-[2025-06-30 16:21:02] [INFO] Listening on port: 8000
-[2025-06-30 16:21:08] [INFO] Shutting down...
-[2025-06-30 16:21:09] [INFO] Listener stopped successfully
-[2025-06-30 16:21:09] [INFO] Hikvision SDK cleaned up successfully
-[2025-06-30 18:47:49] [INFO] Hikvision SDK initialized successfully
-[2025-06-30 18:47:50] [INFO] Listener started successfully
-[2025-06-30 18:47:50] [INFO] Listening on port: 8000
-[2025-06-30 18:47:57] [INFO] Shutting down...
-[2025-06-30 18:47:58] [INFO] Listener stopped successfully
-[2025-06-30 18:47:58] [INFO] Hikvision SDK cleaned up successfully
-[2025-06-30 18:57:51] [INFO] Hikvision SDK initialized successfully
-[2025-06-30 18:57:51] [INFO] Listener started successfully
-[2025-06-30 18:57:51] [INFO] Listening on port: 8000
-[2025-06-30 18:57:51] [INFO] [EVENT] {"cmd":1000, "ip":"192.168.1.1", "port":8000", "mock":true}
-[2025-06-30 18:57:52] [INFO] [EVENT] {"cmd":1000, "ip":"192.168.1.2", "port":8000", "mock":true}
-[2025-06-30 18:57:53] [INFO] [EVENT] {"cmd":1000, "ip":"192.168.1.3", "port":8000", "mock":true}
-[2025-06-30 18:57:54] [INFO] [EVENT] {"cmd":1000, "ip":"192.168.1.4", "port":8000", "mock":true}
-[2025-06-30 18:57:55] [INFO] [EVENT] {"cmd":1000, "ip":"192.168.1.5", "port":8000", "mock":true}
-[2025-06-30 18:57:56] [INFO] [EVENT] {"cmd":1000, "ip":"192.168.1.6", "port":8000", "mock":true}
-[2025-06-30 18:57:57] [INFO] [EVENT] {"cmd":1000, "ip":"192.168.1.7", "port":8000", "mock":true}
-[2025-06-30 18:57:58] [INFO] [EVENT] {"cmd":1000, "ip":"192.168.1.8", "port":8000", "mock":true}
-[2025-06-30 18:57:59] [INFO] [EVENT] {"cmd":1000, "ip":"192.168.1.9", "port":8000", "mock":true}
-[2025-06-30 18:58:00] [INFO] [EVENT] {"cmd":1000, "ip":"192.168.1.10", "port":8000", "mock":true}
-[2025-06-30 18:59:06] [INFO] Shutting down...
-[2025-06-30 18:59:06] [INFO] Listener stopped successfully
-[2025-06-30 18:59:06] [INFO] Hikvision SDK cleaned up successfully
-[2025-06-30 18:59:10] [INFO] Hikvision SDK initialized successfully
-[2025-06-30 18:59:10] [INFO] Listener started successfully
-[2025-06-30 18:59:10] [INFO] Listening on port: 8000
-[2025-06-30 18:59:10] [INFO] [EVENT] {"cmd":1001, "ip":"192.168.1.1", "port":8000", "mock":true}
-[2025-06-30 18:59:11] [INFO] [EVENT] {"cmd":1002, "ip":"192.168.1.2", "port":8000", "mock":true}
-[2025-06-30 18:59:12] [INFO] [EVENT] {"cmd":1003, "ip":"192.168.1.3", "port":8000", "mock":true}
-[2025-06-30 18:59:13] [INFO] [EVENT] {"cmd":1004, "ip":"192.168.1.4", "port":8000", "mock":true}
-[2025-06-30 18:59:14] [INFO] [EVENT] {"cmd":1005, "ip":"192.168.1.5", "port":8000", "mock":true}
-[2025-06-30 18:59:15] [INFO] [EVENT] {"cmd":1006, "ip":"192.168.1.6", "port":8000", "mock":true}
-[2025-06-30 18:59:16] [INFO] [EVENT] {"cmd":1007, "ip":"192.168.1.7", "port":8000", "mock":true}
-[2025-06-30 18:59:17] [INFO] [EVENT] {"cmd":1008, "ip":"192.168.1.8", "port":8000", "mock":true}
-[2025-06-30 18:59:18] [INFO] [EVENT] {"cmd":1009, "ip":"192.168.1.9", "port":8000", "mock":true}
-[2025-06-30 18:59:19] [INFO] [EVENT] {"cmd":10010, "ip":"192.168.1.10", "port":8000", "mock":true}
-[2025-06-30 19:04:10] [INFO] Shutting down...
-[2025-06-30 19:04:10] [INFO] Listener stopped successfully
-[2025-06-30 19:04:10] [INFO] Hikvision SDK cleaned up successfully
-[2025-06-30 19:04:16] [INFO] Hikvision SDK initialized successfully
-[2025-06-30 19:04:16] [INFO] Listener started successfully
-[2025-06-30 19:04:16] [INFO] Listening on port: 8000
-[2025-06-30 19:04:16] [INFO] [EVENT] {"cmd":1001, "ip":"192.168.1.210", "port":8000", "mock":true}
-[2025-06-30 19:04:17] [INFO] [EVENT] {"cmd":1002, "ip":"192.168.1.210", "port":8000", "mock":true}
-[2025-06-30 19:04:18] [INFO] [EVENT] {"cmd":1003, "ip":"192.168.1.210", "port":8000", "mock":true}
-[2025-06-30 19:04:19] [INFO] [EVENT] {"cmd":1004, "ip":"192.168.1.210", "port":8000", "mock":true}
-[2025-06-30 19:04:20] [INFO] [EVENT] {"cmd":1005, "ip":"192.168.1.210", "port":8000", "mock":true}
-[2025-06-30 19:04:21] [INFO] [EVENT] {"cmd":1006, "ip":"192.168.1.210", "port":8000", "mock":true}
-[2025-06-30 19:04:22] [INFO] [EVENT] {"cmd":1007, "ip":"192.168.1.210", "port":8000", "mock":true}
-[2025-06-30 19:04:23] [INFO] [EVENT] {"cmd":1008, "ip":"192.168.1.210", "port":8000", "mock":true}
-[2025-06-30 19:04:24] [INFO] [EVENT] {"cmd":1009, "ip":"192.168.1.210", "port":8000", "mock":true}
-[2025-06-30 19:04:25] [INFO] [EVENT] {"cmd":10010, "ip":"192.168.1.210", "port":8000", "mock":true}
-[2025-06-30 19:04:28] [INFO] Shutting down...
-[2025-06-30 19:04:29] [INFO] Listener stopped successfully
-[2025-06-30 19:04:29] [INFO] Hikvision SDK cleaned up successfully
-[2025-06-30 19:04:30] [INFO] Hikvision SDK initialized successfully
-[2025-06-30 19:04:30] [INFO] Listener started successfully
-[2025-06-30 19:04:30] [INFO] Listening on port: 8000
-[2025-06-30 19:04:30] [INFO] [EVENT] {"cmd":1001, "ip":"192.168.1.13", "port":8000", "mock":true}
-[2025-06-30 19:04:31] [INFO] [EVENT] {"cmd":1002, "ip":"192.168.1.13", "port":8000", "mock":true}
-[2025-06-30 19:04:32] [INFO] [EVENT] {"cmd":1003, "ip":"192.168.1.13", "port":8000", "mock":true}
-[2025-06-30 19:04:33] [INFO] [EVENT] {"cmd":1004, "ip":"192.168.1.13", "port":8000", "mock":true}
-[2025-06-30 19:04:34] [INFO] [EVENT] {"cmd":1005, "ip":"192.168.1.13", "port":8000", "mock":true}
-[2025-06-30 19:04:35] [INFO] [EVENT] {"cmd":1006, "ip":"192.168.1.13", "port":8000", "mock":true}
-[2025-06-30 19:04:36] [INFO] [EVENT] {"cmd":1007, "ip":"192.168.1.13", "port":8000", "mock":true}
-[2025-06-30 19:04:37] [INFO] [EVENT] {"cmd":1008, "ip":"192.168.1.13", "port":8000", "mock":true}
-[2025-06-30 19:04:38] [INFO] [EVENT] {"cmd":1009, "ip":"192.168.1.13", "port":8000", "mock":true}
-[2025-06-30 19:04:39] [INFO] [EVENT] {"cmd":10010, "ip":"192.168.1.13", "port":8000", "mock":true}
-[2025-06-30 19:04:44] [INFO] Shutting down...
-[2025-06-30 19:04:44] [INFO] Listener stopped successfully
-[2025-06-30 19:04:44] [INFO] Hikvision SDK cleaned up successfully
-[2025-06-30 19:05:13] [INFO] Hikvision SDK initialized successfully
-[2025-06-30 19:05:13] [INFO] Listener started successfully
-[2025-06-30 19:05:13] [INFO] Listening on port: 8000
-[2025-06-30 19:05:13] [INFO] [EVENT] {"cmd":1001, "ip":"192.168.1.145", "port":8000", "mock":true}
-[2025-06-30 19:05:14] [INFO] [EVENT] {"cmd":1002, "ip":"192.168.1.85", "port":8000", "mock":true}
-[2025-06-30 19:05:15] [INFO] [EVENT] {"cmd":1003, "ip":"192.168.1.227", "port":8000", "mock":true}
-[2025-06-30 19:05:16] [INFO] [EVENT] {"cmd":1004, "ip":"192.168.1.99", "port":8000", "mock":true}
-[2025-06-30 19:05:17] [INFO] [EVENT] {"cmd":1005, "ip":"192.168.1.18", "port":8000", "mock":true}
-[2025-06-30 19:05:18] [INFO] [EVENT] {"cmd":1006, "ip":"192.168.1.50", "port":8000", "mock":true}
-[2025-06-30 19:05:19] [INFO] [EVENT] {"cmd":1007, "ip":"192.168.1.85", "port":8000", "mock":true}
-[2025-06-30 19:05:20] [INFO] [EVENT] {"cmd":1008, "ip":"192.168.1.128", "port":8000", "mock":true}
-[2025-06-30 19:05:21] [INFO] [EVENT] {"cmd":1009, "ip":"192.168.1.133", "port":8000", "mock":true}
-[2025-06-30 19:05:22] [INFO] [EVENT] {"cmd":10010, "ip":"192.168.1.132", "port":8000", "mock":true}
+[2025-07-01 17:08:13] [INFO] Hikvision SDK initialized successfully
+[2025-07-01 17:08:13] [INFO] Listener started successfully
+[2025-07-01 17:08:13] [INFO] Listening on port: 8000
+[2025-07-01 17:08:34] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": read tcp 127.0.0.1:49608->127.0.0.1:5000: wsarecv: An existing connection was forcibly closed by the remote host.
+[2025-07-01 17:08:35] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-01 17:08:35] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-01 17:08:36] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-01 17:08:36] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-01 17:08:37] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-01 17:08:37] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-01 17:08:38] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-01 17:08:38] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","ip":"192.168.1.102","mock":true}
+[2025-07-01 17:08:38] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-01 17:08:38] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-01 17:08:39] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-01 17:08:39] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-01 17:08:40] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-01 17:08:40] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-01 17:08:41] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-01 17:08:41] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-01 17:08:42] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-01 17:08:42] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-01 17:08:43] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-01 17:08:43] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","ip":"192.168.1.102","mock":true}
+[2025-07-01 17:08:43] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-01 17:08:43] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-01 17:08:44] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-01 17:08:44] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-01 17:08:45] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-01 17:08:48] [INFO] Shutting down...
+[2025-07-01 17:08:48] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","ip":"192.168.1.102","mock":true}
+[2025-07-01 17:08:48] [INFO] Listener stopped successfully
+[2025-07-01 17:08:48] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-01 17:18:46] [INFO] Hikvision SDK initialized successfully
+[2025-07-01 17:18:46] [INFO] Listener started successfully
+[2025-07-01 17:18:46] [INFO] Listening on port: 8000
+[2025-07-01 17:22:22] [INFO] Hikvision SDK initialized successfully
+[2025-07-01 17:22:22] [INFO] Listener started successfully
+[2025-07-01 17:22:22] [INFO] Listening on port: 8000
+[2025-07-01 17:22:22] [ERROR] [HEALTH] Backend responded with status: 405 405 METHOD NOT ALLOWED
+[2025-07-01 17:22:22] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-01 17:22:52] [ERROR] [HEALTH] Backend responded with status: 405 405 METHOD NOT ALLOWED
+[2025-07-01 17:22:52] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-01 17:23:20] [INFO] Shutting down...
+[2025-07-01 17:23:20] [INFO] Listener stopped successfully
+[2025-07-01 17:23:20] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-01 17:24:55] [INFO] Hikvision SDK initialized successfully
+[2025-07-01 17:24:55] [INFO] Listener started successfully
+[2025-07-01 17:24:55] [INFO] Listening on port: 8000
+[2025-07-01 17:24:55] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-01 17:24:55] [ERROR] [HEALTH] Backend responded with status: 405 405 METHOD NOT ALLOWED
+[2025-07-01 17:24:55] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-01 17:24:56] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-01 17:24:57] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-01 17:24:58] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-01 17:24:59] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-01 17:25:00] [ERROR] Retrying event: {"cmd":1001, "ip":"192.168.1.13", "port":8000", "mock":true}
+[2025-07-01 17:25:00] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-01 17:25:00] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-01 17:25:01] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-01 17:25:02] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-01 17:25:03] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-01 17:25:04] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-01 17:25:05] [ERROR] Retrying event: {"cmd":1002, "ip":"192.168.1.205", "port":8000", "mock":true}
+[2025-07-01 17:25:05] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-01 17:25:10] [ERROR] Retrying event: {"cmd":1003, "ip":"192.168.1.74", "port":8000", "mock":true}
+[2025-07-01 17:25:10] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-01 17:25:15] [ERROR] Retrying event: {"cmd":1004, "ip":"192.168.1.198", "port":8000", "mock":true}
+[2025-07-01 17:25:15] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-01 17:25:20] [ERROR] Retrying event: {"cmd":1005, "ip":"192.168.1.15", "port":8000", "mock":true}
+[2025-07-01 17:25:20] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-01 17:25:25] [ERROR] [HEALTH] Backend responded with status: 405 405 METHOD NOT ALLOWED
+[2025-07-01 17:25:25] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-01 17:25:25] [ERROR] Retrying event: {"cmd":1001, "ip":"192.168.1.13", "port":8000", "mock":true}
+[2025-07-01 17:25:25] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-01 17:25:30] [ERROR] Retrying event: {"cmd":1006, "ip":"192.168.1.162", "port":8000", "mock":true}
+[2025-07-01 17:25:30] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-01 17:25:30] [INFO] Shutting down...
+[2025-07-01 17:25:31] [INFO] Listener stopped successfully
+[2025-07-01 17:25:31] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-01 17:29:06] [INFO] Hikvision SDK initialized successfully
+[2025-07-01 17:29:06] [INFO] Listener started successfully
+[2025-07-01 17:29:06] [INFO] Listening on port: 8000
+[2025-07-01 17:29:06] [ERROR] [HEALTH] Backend responded with status: 405 405 METHOD NOT ALLOWED
+[2025-07-01 17:29:06] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-01 17:29:14] [INFO] Shutting down...
+[2025-07-01 17:29:15] [INFO] Listener stopped successfully
+[2025-07-01 17:29:15] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-01 17:37:56] [INFO] Hikvision SDK initialized successfully
+[2025-07-01 17:37:56] [INFO] Listener started successfully
+[2025-07-01 17:37:56] [INFO] Listening on port: 8000
+[2025-07-01 17:37:56] [ERROR] [HEALTH] Backend responded with status: 405 405 METHOD NOT ALLOWED
+[2025-07-01 17:37:56] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-01 17:38:26] [ERROR] [HEALTH] Backend responded with status: 405 405 METHOD NOT ALLOWED
+[2025-07-01 17:38:26] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-01 17:38:48] [INFO] Shutting down...
+[2025-07-01 17:38:49] [INFO] Listener stopped successfully
+[2025-07-01 17:38:49] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-01 17:52:49] [INFO] Hikvision SDK initialized successfully
+[2025-07-01 17:52:49] [INFO] Listener started successfully
+[2025-07-01 17:52:49] [INFO] Listening on port: 8000
+[2025-07-01 17:52:49] [ERROR] [HEALTH] Backend responded with status: 405 405 METHOD NOT ALLOWED
+[2025-07-01 17:52:49] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-01 17:53:19] [ERROR] [HEALTH] Backend responded with status: 405 405 METHOD NOT ALLOWED
+[2025-07-01 17:53:19] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-01 17:53:49] [ERROR] [HEALTH] Backend responded with status: 405 405 METHOD NOT ALLOWED
+[2025-07-01 17:53:49] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-01 17:54:19] [ERROR] [HEALTH] Backend responded with status: 405 405 METHOD NOT ALLOWED
+[2025-07-01 17:54:19] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-01 17:54:49] [ERROR] [HEALTH] Backend responded with status: 405 405 METHOD NOT ALLOWED
+[2025-07-01 17:54:49] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-01 17:54:54] [INFO] Shutting down...
+[2025-07-01 17:54:54] [INFO] Listener stopped successfully
+[2025-07-01 17:54:54] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-01 18:56:56] [INFO] Hikvision SDK initialized successfully
+[2025-07-01 18:56:56] [INFO] Listener started successfully
+[2025-07-01 18:56:56] [INFO] Listening on port: 8000
+[2025-07-01 18:56:56] [ERROR] [HEALTH] Backend responded with status: 405 405 METHOD NOT ALLOWED
+[2025-07-01 18:56:56] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-01 18:59:00] [INFO] Shutting down...
+[2025-07-01 18:59:00] [INFO] Listener stopped successfully
+[2025-07-01 18:59:00] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-01 19:00:30] [INFO] Hikvision SDK initialized successfully
+[2025-07-01 19:00:30] [INFO] Listener started successfully
+[2025-07-01 19:00:30] [INFO] Listening on port: 8000
+[2025-07-01 19:00:30] [ERROR] [HEALTH] Backend responded with status: 405 405 METHOD NOT ALLOWED
+[2025-07-01 19:00:30] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-01 19:00:34] [INFO] Shutting down...
+[2025-07-01 19:00:35] [INFO] Listener stopped successfully
+[2025-07-01 19:00:35] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-01 19:00:56] [INFO] Hikvision SDK initialized successfully
+[2025-07-01 19:00:56] [INFO] Listener started successfully
+[2025-07-01 19:00:56] [INFO] Listening on port: 8000
+[2025-07-01 19:00:56] [ERROR] [HEALTH] Backend responded with status: 405 405 METHOD NOT ALLOWED
+[2025-07-01 19:00:56] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-01 19:05:23] [INFO] Shutting down...
+[2025-07-01 19:05:23] [INFO] Listener stopped successfully
+[2025-07-01 19:05:23] [INFO] Hikvision SDK cleaned up successfully

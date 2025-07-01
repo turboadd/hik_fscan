@@ -7,8 +7,10 @@ import (
 )
 
 type Config struct {
-	ListenPort int  `json:"listen_port"`
-	Debug      bool `json:"debug"`
+	ListenPort    int               `json:"listen_port"`
+	Debug         bool              `json:"debug"`
+	EventEndpoint string            `json:"eventEndpoint"`
+	Devices       map[string]string `json:"devices"`
 }
 
 var AppConfig Config

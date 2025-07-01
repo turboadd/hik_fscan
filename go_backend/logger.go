@@ -6,6 +6,8 @@ import (
 	"os"
 	"path/filepath"
 	"time"
+
+	"gopkg.in/natefinch/lumberjack.v2"
 )
 
 const (
@@ -31,7 +33,7 @@ var (
 )
 
 func InitLogger(logPath string, level int) error {
-	var err error
+
 	currentLevel = level
 
 	dir := filepath.Dir(logPath)
@@ -39,12 +41,13 @@ func InitLogger(logPath string, level int) error {
 		return fmt.Errorf("failed to create log directory: %v", err)
 	}
 
-	logFile, err = os.OpenFile(logPath, os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
-	if err != nil {
-		return fmt.Errorf("cannot open log file: %w", err)
+	logFileWriter = &lumberjack.Logger{
+		Filename:   logPath,
+		MaxSize:    5,
+		MaxBackups: 7,
+		MaxAge:     30,
+		Compress:   true,
 	}
-
-	logFileWriter = logFile
 	return nil
 }
 
