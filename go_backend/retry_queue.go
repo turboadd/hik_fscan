@@ -6,6 +6,7 @@ import (
 	"net/http"
 	"sync"
 	"time"
+
 	"github.com/golang-jwt/jwt/v5"
 )
 
@@ -15,14 +16,32 @@ var retryMutex sync.Mutex
 // postNow tries to POST the event immediately.
 func postNow(json string) error {
 	client := &http.Client{Timeout: 2 * time.Second}
-	resp, err := client.Post(AppConfig.EventEndpoint, "application/json", bytes.NewBufferString(json))
+
+	req, err := http.NewRequest("POST", AppConfig.EventEndpoint, bytes.NewBufferString(json))
+	if err != nil {
+		return err
+	}
+
+	req.Header.Set("Content-Type", "application/json")
+
+	if AppConfig.AuthToken != "" {
+		token, err := generateJWT()
+		if err != nil {
+			return fmt.Errorf("failed to generate JWT: %w", err)
+		}
+		req.Header.Set("Authorization", "Bearer "+token)
+	}
+
+	resp, err := client.Do(req)
 	if err != nil {
 		return err
 	}
 	defer resp.Body.Close()
+
 	if resp.StatusCode >= 300 {
 		return fmt.Errorf("backend returned status code: %s", resp.Status)
 	}
+
 	fmt.Println("Sent event with status: " + resp.Status)
 	return nil
 }
@@ -58,12 +77,12 @@ func StartRetryWorker() {
 	}()
 }
 
-func generateJWT()(string, error) {
+func generateJWT() (string, error) {
 	claims := jwt.MapClaims{
-		"site": "siteA",
-		"exp" : time.now().Add(24 * time.Hour).Unix(),
-		"iat" : time.now().Unix(),
+		"site_id": "0001",
+		"exp":     time.Now().Add(24 * time.Hour).Unix(),
+		"iat":     time.Now().Unix(),
 	}
 	token := jwt.NewWithClaims(jwt.SigningMethodHS256, claims)
-	return token.signedString([]byte(AppConfig.AuthToken))
+	return token.SignedString([]byte(AppConfig.AuthToken))
 }

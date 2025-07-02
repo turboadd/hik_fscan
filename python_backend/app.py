@@ -1,10 +1,12 @@
-from flask import Flask, request
+from flask import Flask
+from config.secret_config import config
+from api.routes import api_bp
+
+
 app = Flask(__name__)
 
-@app.route("/event", methods=["POST"])
-def receive_event():
-    print("[EVENT RECEIVED]", request.json)
-    return "OK", 200
+app.register_blueprint(api_bp)
 
 if __name__ == "__main__":
-    app.run(port=5000, debug=True)
+    #print(jwt.__file__)
+    app.run(port=config.get("listen_port",""), debug=True)

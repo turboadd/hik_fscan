@@ -17,7 +17,7 @@ func main() {
 	}
 
 	// Load Config
-	if err := LoadConfig("../config.json"); err != nil {
+	if err := LoadConfig("config.json"); err != nil {
 		Error(fmt.Sprintf("Failed to load config: %v", err))
 	}
 
@@ -44,21 +44,12 @@ func main() {
 		Info("Listener stopped successfully")
 	}()
 
-	//Inject event
-	//rand.Seed(time.Now().UnixNano())
-
-	// go func() {
-	// 	for i := 1; i <= 10; i++ {
-	// 		randomNumber := rand.Intn(235) + 2
-	// 		InjectMockEvent(`{"cmd":100%d, "ip":"192.168.1.%d", "port":8000", "mock":true}`,i, randomNumber)
-	// 		time.Sleep(1 * time.Second)
-	// 	}
-	// }()
-
 	go func() {
 		for {
-			InjectMockEvent(`{"cmd":1234,"ip":"192.168.1.102","mock":true}`)
-			time.Sleep(500 * time.Millisecond)
+			currentTime := time.Now().Unix()
+			event := fmt.Sprintf(`{"site_id":1234,"ip":"192.168.1.101", "device_id":"0001", "user_id":"0001", "time": "%d"}`, currentTime)
+			InjectMockEvent(event)
+			time.Sleep(1 * time.Second)
 		}
 	}()
 

@@ -136,3 +136,1414 @@
 [2025-07-01 19:05:23] [INFO] Shutting down...
 [2025-07-01 19:05:23] [INFO] Listener stopped successfully
 [2025-07-01 19:05:23] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 10:36:48] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 10:36:48] [INFO] Listener started successfully
+[2025-07-02 10:36:48] [INFO] Listening on port: 8000
+[2025-07-02 10:36:48] [ERROR] [HEALTH] Backend responded with status: 405 405 METHOD NOT ALLOWED
+[2025-07-02 10:36:48] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 10:37:09] [INFO] Shutting down...
+[2025-07-02 10:37:10] [INFO] Listener stopped successfully
+[2025-07-02 10:37:11] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 10:38:19] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 10:38:19] [INFO] Listener started successfully
+[2025-07-02 10:38:19] [INFO] Listening on port: 8000
+[2025-07-02 10:38:19] [ERROR] [HEALTH] Backend responded with status: 405 405 METHOD NOT ALLOWED
+[2025-07-02 10:38:19] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 10:38:27] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 10:38:27] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 10:38:28] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 10:38:28] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 10:38:29] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"d0f3ee18-6228-4be1-800f-f5e8e095ee3a","ip":"192.168.1.102","mock":true}
+[2025-07-02 10:38:29] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 10:38:29] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 10:38:29] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 10:38:30] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 10:38:30] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 10:38:31] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 10:38:31] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 10:38:32] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 10:38:32] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 10:38:33] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 10:38:34] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"facc7496-1fea-4d8f-bb3f-6374ee42c3cd","ip":"192.168.1.102","mock":true}
+[2025-07-02 10:38:35] [INFO] Shutting down...
+[2025-07-02 10:38:36] [INFO] Listener stopped successfully
+[2025-07-02 10:38:36] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 10:42:31] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 10:42:31] [INFO] Listener started successfully
+[2025-07-02 10:42:31] [INFO] Listening on port: 8000
+[2025-07-02 10:42:31] [ERROR] [HEALTH] Backend responded with status: 405 405 METHOD NOT ALLOWED
+[2025-07-02 10:42:31] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 10:42:31] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:42:32] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:42:32] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:42:33] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:42:33] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:42:34] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:42:34] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:42:35] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:42:35] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:42:36] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:42:36] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"948eceb5-8a68-421a-89fb-0a4165f85f4f","ip":"192.168.1.102","mock":true}
+[2025-07-02 10:42:36] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:42:36] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:42:37] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:42:37] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:42:38] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:42:38] [INFO] Shutting down...
+[2025-07-02 10:42:38] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:42:39] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:42:39] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:42:39] [INFO] Listener stopped successfully
+[2025-07-02 10:42:39] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 10:46:51] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 10:46:51] [INFO] Listener started successfully
+[2025-07-02 10:46:51] [INFO] Listening on port: 8000
+[2025-07-02 10:46:51] [ERROR] [HEALTH] Backend responded with status: 405 405 METHOD NOT ALLOWED
+[2025-07-02 10:46:51] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 10:46:51] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:46:52] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:46:52] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:46:53] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:46:53] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:46:54] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:46:54] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:46:55] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:46:55] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:46:56] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:46:56] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"e9a40d0f-5f23-4ecf-b161-63a2932af2a3","ip":"192.168.1.102","mock":true}
+[2025-07-02 10:46:56] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:46:56] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:46:57] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:46:57] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:46:58] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:46:58] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:46:59] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:46:59] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:47:00] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:47:00] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:47:01] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:47:01] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"2eaf4822-20b2-45ed-b8db-087cd202e735","ip":"192.168.1.102","mock":true}
+[2025-07-02 10:47:01] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:47:01] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:47:02] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:47:02] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:47:03] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:47:03] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:47:04] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:47:04] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:47:05] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:47:05] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:47:06] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:47:06] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"542b2745-bca5-4906-a46e-f1fe23307bc4","ip":"192.168.1.102","mock":true}
+[2025-07-02 10:47:06] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:47:06] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:47:07] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:47:07] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:47:08] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:47:08] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:47:09] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:47:09] [INFO] Shutting down...
+[2025-07-02 10:47:09] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:47:10] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:47:10] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 10:47:10] [INFO] Listener stopped successfully
+[2025-07-02 10:47:10] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 10:59:59] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 10:59:59] [INFO] Listener started successfully
+[2025-07-02 10:59:59] [INFO] Listening on port: 8000
+[2025-07-02 10:59:59] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 10:59:59] [ERROR] [HEALTH] Backend responded with status: 405 405 METHOD NOT ALLOWED
+[2025-07-02 10:59:59] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 10:59:59] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:00:00] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:00:00] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:00:01] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:00:01] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:00:02] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:00:02] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:00:03] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:00:03] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:00:04] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"a9b2234c-3be7-47ed-a13f-50b4d08eee92","ip":"192.168.1.102","mock":true}
+[2025-07-02 11:00:04] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:00:04] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:00:04] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:00:05] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:00:05] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:00:06] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:00:06] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:00:07] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:00:07] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:00:08] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:00:08] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:00:09] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"9bb05e9f-c5fa-4ebe-941f-98a5880bc455","ip":"192.168.1.102","mock":true}
+[2025-07-02 11:00:09] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:00:09] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:00:09] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:00:10] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:00:10] [INFO] Shutting down...
+[2025-07-02 11:00:10] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:00:11] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:00:11] [INFO] Listener stopped successfully
+[2025-07-02 11:00:11] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 11:00:32] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 11:00:32] [INFO] Listener started successfully
+[2025-07-02 11:00:32] [INFO] Listening on port: 8000
+[2025-07-02 11:00:32] [ERROR] [HEALTH] Backend responded with status: 405 405 METHOD NOT ALLOWED
+[2025-07-02 11:00:32] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 11:00:32] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 11:00:33] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 11:00:33] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 11:00:34] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 11:00:34] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 11:00:35] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 11:00:35] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 11:00:36] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 11:00:36] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 11:00:37] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 11:00:37] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"ce3a62a8-b266-485a-8bec-9f2303499657","ip":"192.168.1.102","mock":true}
+[2025-07-02 11:00:37] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 11:00:37] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 11:00:38] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 11:00:38] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 11:00:39] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 11:00:39] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 11:00:40] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 11:00:40] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 11:00:41] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 11:00:41] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 11:00:42] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 11:00:42] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"9c65e164-9bc2-477a-bea6-683a664003a8","ip":"192.168.1.102","mock":true}
+[2025-07-02 11:00:42] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 11:00:42] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 11:00:43] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 11:00:43] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 11:00:44] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 11:00:44] [INFO] Shutting down...
+[2025-07-02 11:00:44] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 11:00:45] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 11:00:45] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 11:00:45] [INFO] Listener stopped successfully
+[2025-07-02 11:00:45] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 11:01:33] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 11:01:33] [INFO] Listener started successfully
+[2025-07-02 11:01:33] [INFO] Listening on port: 8000
+[2025-07-02 11:01:33] [ERROR] [HEALTH] Backend responded with status: 405 405 METHOD NOT ALLOWED
+[2025-07-02 11:01:33] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 11:01:54] [INFO] Shutting down...
+[2025-07-02 11:01:55] [INFO] Listener stopped successfully
+[2025-07-02 11:01:55] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 11:02:52] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 11:02:52] [INFO] Listener started successfully
+[2025-07-02 11:02:52] [INFO] Listening on port: 8000
+[2025-07-02 11:02:52] [ERROR] [HEALTH] Backend responded with status: 405 405 METHOD NOT ALLOWED
+[2025-07-02 11:02:52] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 11:03:07] [INFO] Shutting down...
+[2025-07-02 11:03:08] [INFO] Listener stopped successfully
+[2025-07-02 11:03:08] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 11:04:08] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 11:04:08] [INFO] Listener started successfully
+[2025-07-02 11:04:08] [INFO] Listening on port: 8000
+[2025-07-02 11:04:08] [ERROR] [HEALTH] Backend responded with status: 405 405 METHOD NOT ALLOWED
+[2025-07-02 11:04:08] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 11:20:08] [INFO] Shutting down...
+[2025-07-02 11:20:08] [INFO] Listener stopped successfully
+[2025-07-02 11:20:08] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 11:22:55] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 11:22:55] [INFO] Listener started successfully
+[2025-07-02 11:22:55] [INFO] Listening on port: 8000
+[2025-07-02 11:22:55] [ERROR] [HEALTH] Backend responded with status: 405 405 METHOD NOT ALLOWED
+[2025-07-02 11:22:55] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 11:27:38] [INFO] Shutting down...
+[2025-07-02 11:27:38] [INFO] Listener stopped successfully
+[2025-07-02 11:27:39] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 11:28:00] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 11:28:00] [INFO] Listener started successfully
+[2025-07-02 11:28:00] [INFO] Listening on port: 8000
+[2025-07-02 11:28:00] [ERROR] [HEALTH] Backend responded with status: 405 405 METHOD NOT ALLOWED
+[2025-07-02 11:28:00] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 11:36:38] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 11:36:38] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 11:36:39] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 11:36:39] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 11:36:40] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"805d061b-cb8a-44bc-a84e-35c0c2e69240","ip":"192.168.1.102","mock":true}
+[2025-07-02 11:36:40] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:40] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:40] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:41] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:41] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:42] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:42] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:43] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:43] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:44] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:44] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:45] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:45] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"d6ed9dcf-2f58-4cb9-83be-baed850da896","ip":"192.168.1.102","mock":true}
+[2025-07-02 11:36:45] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:45] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:46] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:46] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:47] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:47] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:48] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:48] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:49] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:49] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:50] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:50] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"f9a89277-3681-404d-af20-4d9cddfeb46b","ip":"192.168.1.102","mock":true}
+[2025-07-02 11:36:50] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:50] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:51] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:51] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:52] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:52] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:53] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:53] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:54] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:54] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:55] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:55] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"48030fe0-3ce9-4efe-b416-6da4baa5f17d","ip":"192.168.1.102","mock":true}
+[2025-07-02 11:36:55] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:55] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:56] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:56] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:57] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:36:57] [ERROR] Failed to POST event, retrying later: backend returned status code: 401 UNAUTHORIZED
+[2025-07-02 11:37:00] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"2a8768d1-5376-407d-bd4f-ca3d9c09a4a2","ip":"192.168.1.102","mock":true}
+[2025-07-02 11:37:05] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"805d061b-cb8a-44bc-a84e-35c0c2e69240","ip":"192.168.1.102","mock":true}
+[2025-07-02 11:37:10] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"72907bdd-6be0-41d8-b5c2-5089a3cd4f26","ip":"192.168.1.102","mock":true}
+[2025-07-02 11:37:15] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"4792e04a-1b46-4f61-a0c7-5dc1a6090d3f","ip":"192.168.1.102","mock":true}
+[2025-07-02 11:37:20] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"b905749b-4759-4675-b8e7-83246ad018bf","ip":"192.168.1.102","mock":true}
+[2025-07-02 11:37:25] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"62d0a54d-04b2-4404-b49f-bac66e4b57cb","ip":"192.168.1.102","mock":true}
+[2025-07-02 11:37:30] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"e53fd761-d994-42e7-8299-905aa1db826e","ip":"192.168.1.102","mock":true}
+[2025-07-02 11:37:35] [INFO] Shutting down...
+[2025-07-02 11:37:35] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"eee24f52-3e97-478e-8783-81117360553b","ip":"192.168.1.102","mock":true}
+[2025-07-02 11:37:36] [INFO] Listener stopped successfully
+[2025-07-02 11:37:36] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 11:37:43] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 11:37:43] [INFO] Listener started successfully
+[2025-07-02 11:37:43] [INFO] Listening on port: 8000
+[2025-07-02 11:37:43] [ERROR] [HEALTH] Backend responded with status: 405 405 METHOD NOT ALLOWED
+[2025-07-02 11:37:43] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 11:38:42] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 11:38:43] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"cdebb5d2-2bce-4599-a58e-0904253fb1c2","ip":"192.168.1.102","mock":true}
+[2025-07-02 11:38:43] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 11:38:43] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 11:38:43] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 11:38:44] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 11:38:44] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 11:38:45] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 11:38:45] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 11:38:46] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 11:38:46] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 11:38:47] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 11:38:48] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"cdebb5d2-2bce-4599-a58e-0904253fb1c2","ip":"192.168.1.102","mock":true}
+[2025-07-02 11:38:53] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"a72f7bf5-ae8d-46c2-a0a8-0ac8defc41fb","ip":"192.168.1.102","mock":true}
+[2025-07-02 11:38:58] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"6b0301e9-76cd-40f0-9d46-9aeff794702d","ip":"192.168.1.102","mock":true}
+[2025-07-02 11:39:03] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"8f4f7297-7ca6-43a1-aaac-c89f10a4efa2","ip":"192.168.1.102","mock":true}
+[2025-07-02 11:39:08] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"69ed7f05-0588-4b0f-870d-e6367eac0f1a","ip":"192.168.1.102","mock":true}
+[2025-07-02 11:39:13] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"febde2cc-591c-4aa1-9935-1a27e31c5223","ip":"192.168.1.102","mock":true}
+[2025-07-02 11:39:18] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"965c04b2-5fb4-4895-82ef-5044e7c5bd96","ip":"192.168.1.102","mock":true}
+[2025-07-02 11:39:23] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"7b588a4a-4564-4f2a-a8b4-4c7a9e50a877","ip":"192.168.1.102","mock":true}
+[2025-07-02 11:39:28] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"cecea482-310a-4197-95fb-543ece051d83","ip":"192.168.1.102","mock":true}
+[2025-07-02 11:39:33] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"25263957-aaa9-4070-a2d5-9615ee42facc","ip":"192.168.1.102","mock":true}
+[2025-07-02 11:42:02] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": read tcp 127.0.0.1:49222->127.0.0.1:5000: wsarecv: An existing connection was forcibly closed by the remote host.
+[2025-07-02 11:42:02] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 11:42:02] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 11:42:03] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"4b703e4b-1c00-4da8-bfcf-489a350ee9c8","ip":"192.168.1.102","mock":true}
+[2025-07-02 11:42:03] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 11:42:03] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 11:42:03] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 11:42:04] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 11:42:04] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 11:42:05] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 11:42:05] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 11:42:06] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 11:42:06] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 11:42:07] [INFO] Shutting down...
+[2025-07-02 11:42:07] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 11:42:07] [INFO] Listener stopped successfully
+[2025-07-02 11:42:07] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 11:54:11] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 11:54:11] [INFO] Listener started successfully
+[2025-07-02 11:54:11] [INFO] Listening on port: 8000
+[2025-07-02 11:54:11] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 11:55:51] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 11:55:51] [INFO] Listener started successfully
+[2025-07-02 11:55:51] [INFO] Listening on port: 8000
+[2025-07-02 11:56:45] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 11:56:45] [INFO] Listener started successfully
+[2025-07-02 11:56:45] [INFO] Listening on port: 8000
+[2025-07-02 11:56:45] [ERROR] [HEALTH] Backend responded with status: 405 405 METHOD NOT ALLOWED
+[2025-07-02 11:56:45] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 12:26:45] [ERROR] [HEALTH] Backend responded with status: 405 405 METHOD NOT ALLOWED
+[2025-07-02 12:26:45] [INFO] [HEALTH] Queue size: 1
+[2025-07-02 12:56:45] [ERROR] [HEALTH] Backend responded with status: 405 405 METHOD NOT ALLOWED
+[2025-07-02 12:56:45] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 13:26:45] [ERROR] [HEALTH] Backend responded with status: 405 405 METHOD NOT ALLOWED
+[2025-07-02 13:26:45] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 13:56:45] [ERROR] [HEALTH] Backend responded with status: 405 405 METHOD NOT ALLOWED
+[2025-07-02 13:56:45] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 13:57:26] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": read tcp 127.0.0.1:64457->127.0.0.1:5000: wsarecv: An existing connection was forcibly closed by the remote host.
+[2025-07-02 13:57:26] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:27] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:27] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:28] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:28] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:29] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:29] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:30] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:30] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:31] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"5accb9a2-a1b1-4049-a37e-b4545fc0ff7a","ip":"192.168.1.102","mock":true}
+[2025-07-02 13:57:31] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:31] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:31] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:32] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:32] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:33] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:33] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:34] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:34] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:35] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:35] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:36] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"8be0baf2-d867-487c-b5c8-9dd29010f52d","ip":"192.168.1.102","mock":true}
+[2025-07-02 13:57:36] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:36] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:36] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:37] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:37] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:38] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:38] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:39] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:39] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:40] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:40] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:41] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"886038b4-0c7e-40ad-9e72-7a199d1fd6d8","ip":"192.168.1.102","mock":true}
+[2025-07-02 13:57:41] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:41] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:41] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:42] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:42] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:43] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:43] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:44] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:44] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:45] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:45] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:46] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"a5faa8fa-adee-44e1-9758-8269b01035fa","ip":"192.168.1.102","mock":true}
+[2025-07-02 13:57:46] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:46] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:46] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:47] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:47] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:48] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:48] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:49] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:49] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 13:57:51] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"47e13bd7-c781-4233-8f7f-a24ff48c2378","ip":"192.168.1.102","mock":true}
+[2025-07-02 13:57:56] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"49632d3d-94dc-428e-9dae-4f3e886c16ad","ip":"192.168.1.102","mock":true}
+[2025-07-02 13:58:01] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"e13ec5fa-ba75-4658-9195-88f21cc6e4c9","ip":"192.168.1.102","mock":true}
+[2025-07-02 13:58:06] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"32997528-8bf0-4a8b-a11e-0737a9a75469","ip":"192.168.1.102","mock":true}
+[2025-07-02 13:58:11] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"f0f01106-feac-4713-87c5-e2aeb0a51d59","ip":"192.168.1.102","mock":true}
+[2025-07-02 13:58:16] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"b81b10be-2e0f-4fc0-bc54-0e5e5f7b6a72","ip":"192.168.1.102","mock":true}
+[2025-07-02 13:58:21] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"5accb9a2-a1b1-4049-a37e-b4545fc0ff7a","ip":"192.168.1.102","mock":true}
+[2025-07-02 13:58:26] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"b213c8ba-12b0-402f-968e-5e85095fc001","ip":"192.168.1.102","mock":true}
+[2025-07-02 13:58:31] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"3ef225d7-5cc2-44b0-b7bb-4a8a1e6079d6","ip":"192.168.1.102","mock":true}
+[2025-07-02 13:58:36] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"f3ae88f6-ede5-4176-bed7-512db4143216","ip":"192.168.1.102","mock":true}
+[2025-07-02 13:58:41] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"c7ecfab6-5f81-44fe-a27b-e1cf7be8149e","ip":"192.168.1.102","mock":true}
+[2025-07-02 13:58:46] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"e94d9d13-81fa-4119-956d-83163efe6fd1","ip":"192.168.1.102","mock":true}
+[2025-07-02 13:58:51] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"1beb0127-4f12-4b04-a873-464c8030b78c","ip":"192.168.1.102","mock":true}
+[2025-07-02 13:58:56] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"4ee1b469-aca6-4e52-9791-eea97cee2ad9","ip":"192.168.1.102","mock":true}
+[2025-07-02 13:59:01] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"a1fcd279-e639-4676-937d-3e9caadc9714","ip":"192.168.1.102","mock":true}
+[2025-07-02 13:59:06] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"8e367bc9-079d-45b6-ad01-f9624ad7a3b0","ip":"192.168.1.102","mock":true}
+[2025-07-02 13:59:11] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"7a0580d6-896c-48bd-90c7-6efac60ca50a","ip":"192.168.1.102","mock":true}
+[2025-07-02 13:59:16] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"8be0baf2-d867-487c-b5c8-9dd29010f52d","ip":"192.168.1.102","mock":true}
+[2025-07-02 13:59:21] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"d36c5448-e045-49c5-97f4-b733887ac8bb","ip":"192.168.1.102","mock":true}
+[2025-07-02 13:59:26] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"9760e9b2-e057-4eb8-819f-49071bc602ed","ip":"192.168.1.102","mock":true}
+[2025-07-02 13:59:31] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"496b9983-3c38-479b-8ff5-b9e9398f2c8b","ip":"192.168.1.102","mock":true}
+[2025-07-02 13:59:36] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"368bae52-cda0-422f-9f6e-018dc46b909e","ip":"192.168.1.102","mock":true}
+[2025-07-02 13:59:41] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"ae3daf39-e020-45fc-bc4b-3f8b48e78fb7","ip":"192.168.1.102","mock":true}
+[2025-07-02 13:59:46] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"7eebe413-0567-4dcf-81e3-13cc92492e18","ip":"192.168.1.102","mock":true}
+[2025-07-02 13:59:51] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"d7c5c2e8-1b2d-4ba4-85a4-67367ffc20a1","ip":"192.168.1.102","mock":true}
+[2025-07-02 13:59:56] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"856d0f1a-cc4e-474b-b04e-6850a91348e9","ip":"192.168.1.102","mock":true}
+[2025-07-02 14:00:01] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"cc56489f-1015-4e29-94d1-ceb397773873","ip":"192.168.1.102","mock":true}
+[2025-07-02 14:00:06] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"bde02b6c-4b59-4f21-8b4d-3a008ef74677","ip":"192.168.1.102","mock":true}
+[2025-07-02 14:00:11] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"886038b4-0c7e-40ad-9e72-7a199d1fd6d8","ip":"192.168.1.102","mock":true}
+[2025-07-02 14:00:16] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"e4d81c07-5a95-440d-aa7c-12abcf29e085","ip":"192.168.1.102","mock":true}
+[2025-07-02 14:00:21] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"2647994c-4001-4a67-b89c-f8917094f56e","ip":"192.168.1.102","mock":true}
+[2025-07-02 14:00:26] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"aa740243-ba1d-4ae4-ac49-38bf3c72d38c","ip":"192.168.1.102","mock":true}
+[2025-07-02 14:00:31] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"42e9d04d-de6b-4885-b4ad-f867af23c414","ip":"192.168.1.102","mock":true}
+[2025-07-02 14:00:36] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"8be2f7ea-4ef1-429c-b77c-5bd17ece5a46","ip":"192.168.1.102","mock":true}
+[2025-07-02 14:00:41] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"8c8dc144-3bde-4b19-a1f9-60fe0c2af970","ip":"192.168.1.102","mock":true}
+[2025-07-02 14:00:46] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"445dc709-f0ad-4817-ae83-316baeb3436c","ip":"192.168.1.102","mock":true}
+[2025-07-02 14:00:51] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"1483642a-6a71-4db1-a1f7-14ea81f569e4","ip":"192.168.1.102","mock":true}
+[2025-07-02 14:00:56] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"0770fc31-bcfb-4c77-ab39-af46e9ee682c","ip":"192.168.1.102","mock":true}
+[2025-07-02 14:01:01] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"27fcc029-79bb-4045-b19c-f03cf48c6f64","ip":"192.168.1.102","mock":true}
+[2025-07-02 14:01:06] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"a5faa8fa-adee-44e1-9758-8269b01035fa","ip":"192.168.1.102","mock":true}
+[2025-07-02 14:01:11] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"56d0eaf6-d9ea-4483-97f5-1ac6b13bf872","ip":"192.168.1.102","mock":true}
+[2025-07-02 14:01:16] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"c82871a8-602b-41eb-8452-151c69508583","ip":"192.168.1.102","mock":true}
+[2025-07-02 14:01:21] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"6f8d8fb3-487a-4669-9068-b32157b4cbd6","ip":"192.168.1.102","mock":true}
+[2025-07-02 14:01:26] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"f68fbe97-766d-4360-9b5c-538d1f3393a6","ip":"192.168.1.102","mock":true}
+[2025-07-02 14:01:31] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"bfc93068-e3e7-4d39-bf3c-9d1374a190aa","ip":"192.168.1.102","mock":true}
+[2025-07-02 14:01:36] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"e55edd59-25fb-4392-93f3-8bd326831978","ip":"192.168.1.102","mock":true}
+[2025-07-02 14:01:41] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"5bbc8d45-144b-4dda-86be-34f7e9d4718e","ip":"192.168.1.102","mock":true}
+[2025-07-02 14:01:46] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"05fd0615-f3d0-4f84-a3b8-88d087e2372b","ip":"192.168.1.102","mock":true}
+[2025-07-02 14:26:45] [ERROR] [HEALTH] Backend responded with status: 405 405 METHOD NOT ALLOWED
+[2025-07-02 14:26:45] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 14:56:45] [ERROR] [HEALTH] Backend responded with status: 405 405 METHOD NOT ALLOWED
+[2025-07-02 14:56:45] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 15:26:45] [ERROR] [HEALTH] Backend responded with status: 405 405 METHOD NOT ALLOWED
+[2025-07-02 15:26:45] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 15:56:45] [ERROR] [HEALTH] Backend responded with status: 405 405 METHOD NOT ALLOWED
+[2025-07-02 15:56:45] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 16:13:08] [INFO] Shutting down...
+[2025-07-02 16:13:09] [INFO] Listener stopped successfully
+[2025-07-02 16:13:09] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 16:13:34] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 16:13:34] [INFO] Listener started successfully
+[2025-07-02 16:13:34] [INFO] Listening on port: 8000
+[2025-07-02 16:13:34] [ERROR] Failed to POST event, retrying later: backend returned status code: 405 METHOD NOT ALLOWED
+[2025-07-02 16:13:34] [ERROR] [HEALTH] Backend responded with status: 500 500 INTERNAL SERVER ERROR
+[2025-07-02 16:13:34] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 16:13:35] [ERROR] Failed to POST event, retrying later: backend returned status code: 405 METHOD NOT ALLOWED
+[2025-07-02 16:13:35] [ERROR] Failed to POST event, retrying later: backend returned status code: 405 METHOD NOT ALLOWED
+[2025-07-02 16:13:36] [ERROR] Failed to POST event, retrying later: backend returned status code: 405 METHOD NOT ALLOWED
+[2025-07-02 16:13:36] [ERROR] Failed to POST event, retrying later: backend returned status code: 405 METHOD NOT ALLOWED
+[2025-07-02 16:13:37] [ERROR] Failed to POST event, retrying later: backend returned status code: 405 METHOD NOT ALLOWED
+[2025-07-02 16:13:37] [ERROR] Failed to POST event, retrying later: backend returned status code: 405 METHOD NOT ALLOWED
+[2025-07-02 16:13:38] [ERROR] Failed to POST event, retrying later: backend returned status code: 405 METHOD NOT ALLOWED
+[2025-07-02 16:13:38] [ERROR] Failed to POST event, retrying later: backend returned status code: 405 METHOD NOT ALLOWED
+[2025-07-02 16:13:39] [ERROR] Failed to POST event, retrying later: backend returned status code: 405 METHOD NOT ALLOWED
+[2025-07-02 16:13:39] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"bc20571c-167b-4d3a-bc23-39f021f053a6","ip":"192.168.1.102","mock":true}
+[2025-07-02 16:13:39] [ERROR] Failed to POST event, retrying later: backend returned status code: 405 METHOD NOT ALLOWED
+[2025-07-02 16:13:39] [ERROR] Failed to POST event, retrying later: backend returned status code: 405 METHOD NOT ALLOWED
+[2025-07-02 16:13:40] [ERROR] Failed to POST event, retrying later: backend returned status code: 405 METHOD NOT ALLOWED
+[2025-07-02 16:13:40] [ERROR] Failed to POST event, retrying later: backend returned status code: 405 METHOD NOT ALLOWED
+[2025-07-02 16:13:40] [INFO] Shutting down...
+[2025-07-02 16:13:41] [ERROR] Failed to POST event, retrying later: backend returned status code: 405 METHOD NOT ALLOWED
+[2025-07-02 16:13:41] [ERROR] Failed to POST event, retrying later: backend returned status code: 405 METHOD NOT ALLOWED
+[2025-07-02 16:13:41] [INFO] Listener stopped successfully
+[2025-07-02 16:13:41] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 16:15:27] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 16:15:27] [INFO] Listener started successfully
+[2025-07-02 16:15:27] [INFO] Listening on port: 8000
+[2025-07-02 16:15:27] [ERROR] [HEALTH] Backend responded with status: 405 405 METHOD NOT ALLOWED
+[2025-07-02 16:15:27] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 16:15:32] [INFO] Shutting down...
+[2025-07-02 16:15:33] [INFO] Listener stopped successfully
+[2025-07-02 16:15:33] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 16:18:00] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 16:18:00] [INFO] Listener started successfully
+[2025-07-02 16:18:00] [INFO] Listening on port: 8000
+[2025-07-02 16:18:00] [ERROR] [HEALTH] Backend responded with status: 500 500 INTERNAL SERVER ERROR
+[2025-07-02 16:18:00] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 16:19:00] [ERROR] [HEALTH] Backend responded with status: 500 500 INTERNAL SERVER ERROR
+[2025-07-02 16:19:00] [INFO] [HEALTH] Queue size: 1
+[2025-07-02 16:20:00] [ERROR] [HEALTH] Backend responded with status: 500 500 INTERNAL SERVER ERROR
+[2025-07-02 16:20:00] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 16:21:00] [ERROR] [HEALTH] Backend responded with status: 500 500 INTERNAL SERVER ERROR
+[2025-07-02 16:21:00] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 16:22:00] [ERROR] [HEALTH] Backend responded with status: 500 500 INTERNAL SERVER ERROR
+[2025-07-02 16:22:00] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 16:23:00] [INFO] [HEALTH] Backend is healthy
+[2025-07-02 16:23:00] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 16:24:00] [INFO] [HEALTH] Backend is healthy
+[2025-07-02 16:24:00] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 16:25:00] [INFO] [HEALTH] Backend is healthy
+[2025-07-02 16:25:00] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 16:26:00] [INFO] [HEALTH] Backend is healthy
+[2025-07-02 16:26:00] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 16:27:00] [INFO] [HEALTH] Backend is healthy
+[2025-07-02 16:27:00] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 16:28:00] [INFO] [HEALTH] Backend is healthy
+[2025-07-02 16:28:00] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 16:29:00] [INFO] [HEALTH] Backend is healthy
+[2025-07-02 16:29:00] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 16:29:19] [INFO] Shutting down...
+[2025-07-02 16:29:20] [INFO] Listener stopped successfully
+[2025-07-02 16:29:20] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 16:29:24] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 16:29:24] [INFO] Listener started successfully
+[2025-07-02 16:29:24] [INFO] Listening on port: 8000
+[2025-07-02 16:29:24] [INFO] [HEALTH] Backend is healthy: 2025-07-02T09:29:24.764464Z
+[2025-07-02 16:29:24] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 16:30:24] [INFO] [HEALTH] Backend is healthy: 2025-07-02T09:30:24.767257Z
+[2025-07-02 16:30:24] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 16:31:24] [INFO] [HEALTH] Backend is healthy: 2025-07-02T09:31:24.769515Z
+[2025-07-02 16:31:24] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 16:32:24] [INFO] [HEALTH] Backend is healthy: 2025-07-02T09:32:24.772072Z
+[2025-07-02 16:32:24] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 16:32:34] [INFO] Shutting down...
+[2025-07-02 16:32:35] [INFO] Listener stopped successfully
+[2025-07-02 16:32:35] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 16:32:55] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 16:32:55] [INFO] Listener started successfully
+[2025-07-02 16:32:55] [INFO] Listening on port: 8000
+[2025-07-02 16:32:55] [INFO] [HEALTH] Backend is healthy.
+[2025-07-02 16:32:55] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 16:33:08] [INFO] Shutting down...
+[2025-07-02 16:33:09] [INFO] Listener stopped successfully
+[2025-07-02 16:33:09] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 16:33:29] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 16:33:29] [INFO] Listener started successfully
+[2025-07-02 16:33:29] [INFO] Listening on port: 8000
+[2025-07-02 16:33:29] [INFO] [HEALTH] Backend is healthy.
+[2025-07-02 16:33:29] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 17:03:29] [INFO] [HEALTH] Backend is healthy.
+[2025-07-02 17:03:29] [INFO] [HEALTH] Queue size: 1
+[2025-07-02 17:14:18] [INFO] Shutting down...
+[2025-07-02 17:14:19] [INFO] Listener stopped successfully
+[2025-07-02 17:14:19] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 17:14:43] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 17:14:43] [INFO] Listener started successfully
+[2025-07-02 17:14:43] [INFO] Listening on port: 8000
+[2025-07-02 17:14:43] [INFO] [HEALTH] Backend is healthy.
+[2025-07-02 17:14:43] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 17:14:43] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:14:44] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:14:45] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:14:46] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:14:47] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:14:48] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.102","device_id":001, "cliend_id": 001, "time":"2025-07-02T10:14:43Z"}
+[2025-07-02 17:14:48] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:14:48] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:14:49] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:14:50] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:14:51] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:14:52] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:14:53] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.102","device_id":001, "cliend_id": 001, "time":"2025-07-02T10:14:44Z"}
+[2025-07-02 17:14:53] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:14:53] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:14:54] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:14:55] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:14:56] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:14:56] [INFO] Shutting down...
+[2025-07-02 17:14:57] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:14:57] [INFO] Listener stopped successfully
+[2025-07-02 17:14:57] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 17:19:10] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 17:19:10] [INFO] Listener started successfully
+[2025-07-02 17:19:10] [INFO] Listening on port: 8000
+[2025-07-02 17:19:10] [INFO] [HEALTH] Backend is healthy.
+[2025-07-02 17:19:10] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 17:19:10] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:19:11] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:19:12] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:19:13] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:19:14] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:19:15] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.102","device_id":001, "cliend_id": 001, "time"}
+[2025-07-02 17:19:15] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:19:15] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:19:16] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:19:17] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:19:18] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:19:19] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:19:20] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.102","device_id":001, "cliend_id": 001, "time"}
+[2025-07-02 17:19:20] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:19:20] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:19:21] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:19:22] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:19:23] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:19:24] [INFO] Shutting down...
+[2025-07-02 17:19:24] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:19:25] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.102","device_id":001, "cliend_id": 001, "time"}
+[2025-07-02 17:19:25] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:19:25] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:19:25] [INFO] Listener stopped successfully
+[2025-07-02 17:19:25] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 17:20:05] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 17:20:05] [INFO] Listener started successfully
+[2025-07-02 17:20:05] [INFO] Listening on port: 8000
+[2025-07-02 17:20:05] [INFO] [HEALTH] Backend is healthy.
+[2025-07-02 17:20:05] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 17:20:11] [INFO] Shutting down...
+[2025-07-02 17:20:12] [INFO] Listener stopped successfully
+[2025-07-02 17:20:12] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 17:22:56] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 17:22:56] [INFO] Listener started successfully
+[2025-07-02 17:22:56] [INFO] Listening on port: 8000
+[2025-07-02 17:22:56] [INFO] [HEALTH] Backend is healthy.
+[2025-07-02 17:22:56] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 17:22:56] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:22:56] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:22:57] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:22:57] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:22:58] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:22:58] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:22:59] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:22:59] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:23:00] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:23:00] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:23:01] [ERROR] Retrying event: {"cmd":1234,"ip":"192.168.1.102","mock":true, "timr":2025-07-02T10:22:56Z}
+[2025-07-02 17:23:01] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:23:01] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:23:01] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:23:02] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:23:02] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:23:03] [INFO] Shutting down...
+[2025-07-02 17:23:03] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:23:03] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:23:04] [INFO] Listener stopped successfully
+[2025-07-02 17:23:04] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:23:04] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 17:24:04] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 17:24:04] [INFO] Listener started successfully
+[2025-07-02 17:24:04] [INFO] Listening on port: 8000
+[2025-07-02 17:24:04] [INFO] [HEALTH] Backend is healthy.
+[2025-07-02 17:24:04] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 17:24:10] [INFO] Shutting down...
+[2025-07-02 17:24:10] [INFO] Listener stopped successfully
+[2025-07-02 17:24:11] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 17:26:20] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 17:26:20] [INFO] Listener started successfully
+[2025-07-02 17:26:20] [INFO] Listening on port: 8000
+[2025-07-02 17:26:20] [INFO] [HEALTH] Backend is healthy.
+[2025-07-02 17:26:20] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 17:26:44] [INFO] Shutting down...
+[2025-07-02 17:26:45] [INFO] Listener stopped successfully
+[2025-07-02 17:26:45] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 17:27:52] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 17:27:52] [INFO] Listener started successfully
+[2025-07-02 17:27:52] [INFO] Listening on port: 8000
+[2025-07-02 17:27:52] [INFO] [HEALTH] Backend is healthy.
+[2025-07-02 17:27:52] [INFO] [HEALTH] Queue size: 1
+[2025-07-02 17:28:05] [INFO] Shutting down...
+[2025-07-02 17:28:06] [INFO] Listener stopped successfully
+[2025-07-02 17:28:06] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 17:30:36] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 17:30:36] [INFO] Listener started successfully
+[2025-07-02 17:30:36] [INFO] Listening on port: 8000
+[2025-07-02 17:30:36] [INFO] [HEALTH] Backend is healthy.
+[2025-07-02 17:30:36] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 17:30:45] [INFO] Shutting down...
+[2025-07-02 17:30:46] [INFO] Listener stopped successfully
+[2025-07-02 17:30:46] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 17:35:36] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 17:35:36] [INFO] Listener started successfully
+[2025-07-02 17:35:36] [INFO] Listening on port: 8000
+[2025-07-02 17:35:36] [INFO] [HEALTH] Backend is healthy.
+[2025-07-02 17:35:36] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 17:36:21] [INFO] Shutting down...
+[2025-07-02 17:36:21] [INFO] Listener stopped successfully
+[2025-07-02 17:36:21] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 17:44:17] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 17:44:17] [INFO] Listener started successfully
+[2025-07-02 17:44:17] [INFO] Listening on port: 8000
+[2025-07-02 17:44:17] [INFO] [HEALTH] Backend is healthy.
+[2025-07-02 17:44:17] [INFO] [HEALTH] Queue size: 1
+[2025-07-02 17:45:33] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:34] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:34] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:34] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:35] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:35] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:36] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:37] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:37] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"46ec2e3c-c2d8-4413-a26b-5eb12e031a36","ip":"192.168.1.102","mock":true,"time":"1751453133"}
+[2025-07-02 17:45:37] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:37] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:37] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:38] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:38] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:39] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:40] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:40] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:41] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:41] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:41] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:42] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"735cd12c-e80a-4583-a425-dbc39951bb76","ip":"192.168.1.102","mock":true,"time":"1751453133"}
+[2025-07-02 17:45:42] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:42] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:43] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:43] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:44] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:44] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:44] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:45] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:46] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:46] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:47] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:47] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"c5bb99ba-5d2c-4134-8ed2-48497a27219f","ip":"192.168.1.102","mock":true,"time":"1751453134"}
+[2025-07-02 17:45:47] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:47] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:47] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:48] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:48] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:49] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:50] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:50] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:51] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:51] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:51] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:52] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"57f4ed97-a116-4df9-9e5f-175520f7d234","ip":"192.168.1.102","mock":true,"time":"1751453134"}
+[2025-07-02 17:45:52] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:52] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:53] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:53] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:54] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:54] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:54] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:55] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:56] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:56] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:57] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:57] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"b1c974ff-999c-4d51-9b9d-fceccb631547","ip":"192.168.1.102","mock":true,"time":"1751453135"}
+[2025-07-02 17:45:57] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:57] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:57] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:58] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:59] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:45:59] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:00] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:00] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:00] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:01] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:02] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:02] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"8891837d-e396-4e57-8d7c-0521a889f874","ip":"192.168.1.102","mock":true,"time":"1751453135"}
+[2025-07-02 17:46:02] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:02] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:03] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:03] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:03] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:04] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:05] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:05] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:06] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:06] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:06] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:07] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"79191495-e42a-45f7-9906-4698fe096fc9","ip":"192.168.1.102","mock":true,"time":"1751453136"}
+[2025-07-02 17:46:07] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:07] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:08] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:08] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:09] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:09] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:10] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:10] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:11] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:11] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:11] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:12] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"c84765e3-f3e6-4e69-b969-796ed5cf09e3","ip":"192.168.1.102","mock":true,"time":"1751453136"}
+[2025-07-02 17:46:12] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:12] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:13] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:13] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:14] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:14] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:15] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:15] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:16] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:16] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:16] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:17] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:17] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"46ec2e3c-c2d8-4413-a26b-5eb12e031a36","ip":"192.168.1.102","mock":true,"time":"1751453133"}
+[2025-07-02 17:46:17] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:18] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:18] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:19] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:19] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:20] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:20] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:21] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:21] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:21] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:22] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:22] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"e34d579b-4ae8-4889-a1c3-7935810acfb6","ip":"192.168.1.102","mock":true,"time":"1751453137"}
+[2025-07-02 17:46:22] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:23] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:23] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:24] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:24] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:25] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:25] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:26] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:26] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:27] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:27] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:27] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"5a13bf57-e843-40e9-9d87-4d49c981b2be","ip":"192.168.1.102","mock":true,"time":"1751453137"}
+[2025-07-02 17:46:27] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:28] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:28] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:29] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:29] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:30] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:30] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:31] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:31] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:32] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:32] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:32] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"9875db14-25d0-41ce-a785-7d7422b24f30","ip":"192.168.1.102","mock":true,"time":"1751453138"}
+[2025-07-02 17:46:32] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:32] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:33] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:34] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:34] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:35] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:35] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:36] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:36] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:37] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:37] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:37] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"d566958e-19b6-4280-9ae3-f6e36b48ad05","ip":"192.168.1.102","mock":true,"time":"1751453138"}
+[2025-07-02 17:46:37] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:38] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:38] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:39] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:39] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:40] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:40] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:40] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:41] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:42] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:42] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:42] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"ada130b5-d6c9-4b88-8793-0f910afb20eb","ip":"192.168.1.102","mock":true,"time":"1751453139"}
+[2025-07-02 17:46:42] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:43] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:43] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:44] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:44] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:45] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:45] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:46] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:46] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:47] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:47] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:47] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"e140eed0-6432-4595-a420-27426ee14609","ip":"192.168.1.102","mock":true,"time":"1751453139"}
+[2025-07-02 17:46:47] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:48] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:48] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:49] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:49] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:50] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:50] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:51] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:51] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:52] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:52] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:52] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"afbd9ac9-4314-472c-9be7-1e23bffb73ea","ip":"192.168.1.102","mock":true,"time":"1751453140"}
+[2025-07-02 17:46:52] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:53] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:53] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:54] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:54] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:55] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:55] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:56] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:56] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:57] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:57] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:57] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"9a4da1fa-f218-4e40-a996-13534a11eb7c","ip":"192.168.1.102","mock":true,"time":"1751453140"}
+[2025-07-02 17:46:57] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:58] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:58] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:59] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:46:59] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:00] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:00] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:01] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:01] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:02] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:02] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:02] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"90460789-044c-41f2-bce6-4bbe8f75f0fb","ip":"192.168.1.102","mock":true,"time":"1751453141"}
+[2025-07-02 17:47:02] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:03] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:03] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:04] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:04] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:05] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:05] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:06] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:06] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:07] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:07] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:07] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"6183870c-d196-4222-84e0-f634975f7f59","ip":"192.168.1.102","mock":true,"time":"1751453141"}
+[2025-07-02 17:47:07] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:08] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:08] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:09] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:09] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:10] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:10] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:11] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:11] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:12] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:12] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:12] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"735cd12c-e80a-4583-a425-dbc39951bb76","ip":"192.168.1.102","mock":true,"time":"1751453133"}
+[2025-07-02 17:47:12] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:13] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:13] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:14] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:14] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:15] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:15] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:16] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:16] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:17] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:17] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:17] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"0b910c54-0ff8-4c35-9622-c1c236da8ca1","ip":"192.168.1.102","mock":true,"time":"1751453142"}
+[2025-07-02 17:47:17] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:18] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:18] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:19] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:19] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:20] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:20] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:21] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:21] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:22] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:22] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:22] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"c9ec56d8-a386-41f9-b868-ccfb70d80377","ip":"192.168.1.102","mock":true,"time":"1751453142"}
+[2025-07-02 17:47:22] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:23] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:23] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:24] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:24] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:25] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:25] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:26] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:26] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:27] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:27] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:27] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"02539f82-c500-4cc6-ac98-7e1aa08b678e","ip":"192.168.1.102","mock":true,"time":"1751453143"}
+[2025-07-02 17:47:27] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:28] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:28] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:29] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:29] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:30] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:30] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:31] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:31] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:32] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:32] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:32] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"2964d7f9-04dc-4d84-9c9e-55717885168b","ip":"192.168.1.102","mock":true,"time":"1751453143"}
+[2025-07-02 17:47:32] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:33] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:33] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:34] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:34] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:35] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:35] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:36] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:36] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:37] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:37] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:37] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"41f195f8-5db3-4423-9b16-cdb94975fd4d","ip":"192.168.1.102","mock":true,"time":"1751453144"}
+[2025-07-02 17:47:37] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:38] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:38] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:39] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:39] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:40] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:40] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:41] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:41] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:42] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:42] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:42] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"f7fdb716-0c58-4ab2-9230-761ec808e58c","ip":"192.168.1.102","mock":true,"time":"1751453144"}
+[2025-07-02 17:47:42] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:43] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:43] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:44] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:44] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:45] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:45] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:46] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:46] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:47] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:47] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:47] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"61a05d73-2078-4e56-a4a8-ad90831b4c29","ip":"192.168.1.102","mock":true,"time":"1751453145"}
+[2025-07-02 17:47:47] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:48] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:48] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:49] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:49] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:50] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:50] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:51] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:51] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:52] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:52] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:52] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"582ccb16-8dd7-4c9d-8048-39de6dfa88a8","ip":"192.168.1.102","mock":true,"time":"1751453145"}
+[2025-07-02 17:47:52] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:53] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:53] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:54] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:54] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:55] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:55] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:56] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:56] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:57] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:57] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:57] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"78d1cfa8-3502-487d-9d49-f957662c8139","ip":"192.168.1.102","mock":true,"time":"1751453146"}
+[2025-07-02 17:47:57] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:58] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:58] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:47:59] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 17:48:02] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"cc3e32c9-8d05-4db0-b106-cb88857f8ca1","ip":"192.168.1.102","mock":true,"time":"1751453146"}
+[2025-07-02 17:48:07] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"c5bb99ba-5d2c-4134-8ed2-48497a27219f","ip":"192.168.1.102","mock":true,"time":"1751453134"}
+[2025-07-02 17:48:12] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"7b6865da-04b5-4236-9912-40badf1fd96d","ip":"192.168.1.102","mock":true,"time":"1751453147"}
+[2025-07-02 17:48:17] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"63f19c7c-f995-4040-80e1-cb8329351757","ip":"192.168.1.102","mock":true,"time":"1751453147"}
+[2025-07-02 17:48:22] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"470dd624-cfb4-4b00-895d-0f647387368c","ip":"192.168.1.102","mock":true,"time":"1751453148"}
+[2025-07-02 17:48:27] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"bf5b5290-494e-4006-b53b-4a826d3c895f","ip":"192.168.1.102","mock":true,"time":"1751453148"}
+[2025-07-02 17:48:32] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"d983e65e-24df-42ef-ac44-d648286a6543","ip":"192.168.1.102","mock":true,"time":"1751453149"}
+[2025-07-02 17:48:37] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"28c56f61-76a3-499c-a1eb-1dd1882cc3b7","ip":"192.168.1.102","mock":true,"time":"1751453149"}
+[2025-07-02 17:48:42] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"70473029-80ec-4dd6-b99f-86969131ae56","ip":"192.168.1.102","mock":true,"time":"1751453150"}
+[2025-07-02 17:48:47] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"3100b3e4-372d-4aac-a86c-5ff7e5e59e57","ip":"192.168.1.102","mock":true,"time":"1751453150"}
+[2025-07-02 17:48:52] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"f9b400ea-891a-49b9-a80e-30306301ce32","ip":"192.168.1.102","mock":true,"time":"1751453151"}
+[2025-07-02 17:48:57] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"29139b1f-c182-429e-998a-ae6dafc47076","ip":"192.168.1.102","mock":true,"time":"1751453151"}
+[2025-07-02 17:49:02] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"57f4ed97-a116-4df9-9e5f-175520f7d234","ip":"192.168.1.102","mock":true,"time":"1751453134"}
+[2025-07-02 17:49:07] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"2b61e17f-a2c3-417f-9770-39888b0785a2","ip":"192.168.1.102","mock":true,"time":"1751453152"}
+[2025-07-02 17:49:12] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"98bc7046-0eba-4d73-96b2-e54c2bce5e62","ip":"192.168.1.102","mock":true,"time":"1751453152"}
+[2025-07-02 17:49:17] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"43726c76-e335-4bbd-a359-0d204b0c50fe","ip":"192.168.1.102","mock":true,"time":"1751453153"}
+[2025-07-02 17:49:22] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"18ee3b5a-f1b2-4499-b5b0-72c5c5bd4f1f","ip":"192.168.1.102","mock":true,"time":"1751453153"}
+[2025-07-02 17:49:27] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"af640f1e-e2e1-4a34-9839-75d6b9154e73","ip":"192.168.1.102","mock":true,"time":"1751453154"}
+[2025-07-02 17:49:32] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"28d6fa43-2cdf-484b-ad65-50e0e0b82d4b","ip":"192.168.1.102","mock":true,"time":"1751453154"}
+[2025-07-02 17:49:37] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"587af12f-63f8-4fd9-a4ec-53b8942f6fb3","ip":"192.168.1.102","mock":true,"time":"1751453155"}
+[2025-07-02 17:49:42] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"2e4b83c8-3286-455a-993c-9a7cc5150495","ip":"192.168.1.102","mock":true,"time":"1751453155"}
+[2025-07-02 17:49:47] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"8dc8ab79-f925-4fb2-9e6a-1e207724aed0","ip":"192.168.1.102","mock":true,"time":"1751453156"}
+[2025-07-02 17:49:52] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"f8556c9e-a29d-49ce-97b5-d97ec20344fd","ip":"192.168.1.102","mock":true,"time":"1751453156"}
+[2025-07-02 17:49:57] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"fdb195e6-f1ee-4af9-823f-b8afe67b563d","ip":"192.168.1.102","mock":true,"time":"1751453157"}
+[2025-07-02 17:50:02] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"b1c974ff-999c-4d51-9b9d-fceccb631547","ip":"192.168.1.102","mock":true,"time":"1751453135"}
+[2025-07-02 17:50:07] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"9d6ccf47-c651-4398-9817-f4278b091a55","ip":"192.168.1.102","mock":true,"time":"1751453157"}
+[2025-07-02 17:50:12] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"3e802037-7c86-48e3-89e1-0a5afec6495e","ip":"192.168.1.102","mock":true,"time":"1751453158"}
+[2025-07-02 17:50:17] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"7d90380e-1efd-417c-8d0d-8832c7b3f1a1","ip":"192.168.1.102","mock":true,"time":"1751453158"}
+[2025-07-02 17:50:22] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"efcd3571-6634-4b95-92ce-ac3f2db1b168","ip":"192.168.1.102","mock":true,"time":"1751453159"}
+[2025-07-02 17:50:27] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"3e4cb180-1a76-42f0-9097-36b799a7334e","ip":"192.168.1.102","mock":true,"time":"1751453159"}
+[2025-07-02 17:50:32] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"60d2e677-91c3-4605-bf46-698bd9942cf8","ip":"192.168.1.102","mock":true,"time":"1751453160"}
+[2025-07-02 17:50:37] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"14a6f2a3-9d04-4042-81ff-5f587977b18e","ip":"192.168.1.102","mock":true,"time":"1751453160"}
+[2025-07-02 17:50:42] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"bf705a74-4598-490e-8e69-438c728a54a5","ip":"192.168.1.102","mock":true,"time":"1751453161"}
+[2025-07-02 17:50:47] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"502820e1-af3e-4cd6-b7ab-408bf2fe3a39","ip":"192.168.1.102","mock":true,"time":"1751453161"}
+[2025-07-02 17:50:52] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"8891837d-e396-4e57-8d7c-0521a889f874","ip":"192.168.1.102","mock":true,"time":"1751453135"}
+[2025-07-02 17:50:57] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"e5f3ab74-b263-4257-8551-02dc69d9605f","ip":"192.168.1.102","mock":true,"time":"1751453162"}
+[2025-07-02 17:51:02] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"88e37e6a-064e-4fef-ac1c-d528ba04411c","ip":"192.168.1.102","mock":true,"time":"1751453162"}
+[2025-07-02 17:51:08] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"de91f8e0-7d03-449a-9dd8-31ba1bc81ebd","ip":"192.168.1.102","mock":true,"time":"1751453163"}
+[2025-07-02 17:51:13] [ERROR] Retrying event: {"cmd":1234,"deviceName":"Unknown","eventID":"bc7ebcff-88c9-4fde-8766-67a2ebeaa0e4","ip":"192.168.1.102","mock":true,"time":"1751453163"}
+[2025-07-02 17:51:15] [INFO] Shutting down...
+[2025-07-02 17:51:15] [INFO] Listener stopped successfully
+[2025-07-02 17:51:15] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 17:51:43] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 17:51:43] [INFO] Listener started successfully
+[2025-07-02 17:51:43] [INFO] Listening on port: 8000
+[2025-07-02 17:51:43] [INFO] [HEALTH] Backend is healthy.
+[2025-07-02 17:51:43] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 17:51:43] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:51:43] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:51:44] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:51:44] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:51:45] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:51:45] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:51:46] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:51:46] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:51:47] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:51:47] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:51:48] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.101", "device_id":001, "user_id":"0001", "time": "1751453503"}
+[2025-07-02 17:51:48] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:51:48] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:51:48] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:51:49] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:51:49] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:51:50] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:51:50] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:51:51] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:51:51] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:51:52] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:51:52] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:51:53] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.101", "device_id":001, "user_id":"0001", "time": "1751453503"}
+[2025-07-02 17:51:53] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:51:53] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:51:53] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:51:54] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:51:54] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:51:55] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:51:55] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:51:56] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:51:56] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:51:57] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:51:57] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:51:58] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.101", "device_id":001, "user_id":"0001", "time": "1751453504"}
+[2025-07-02 17:51:58] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:51:58] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:51:58] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:51:59] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:51:59] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:52:00] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:52:00] [INFO] Shutting down...
+[2025-07-02 17:52:00] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:52:01] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:52:01] [INFO] Listener stopped successfully
+[2025-07-02 17:52:01] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 17:52:14] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 17:52:14] [INFO] Listener started successfully
+[2025-07-02 17:52:14] [INFO] Listening on port: 8000
+[2025-07-02 17:52:14] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:52:14] [INFO] [HEALTH] Backend is healthy.
+[2025-07-02 17:52:14] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 17:52:15] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:52:15] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:52:16] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:52:16] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:52:17] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:52:17] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:52:18] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:52:18] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:52:19] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:52:19] [ERROR] Retrying event: {"cmd":1234,"ip":"192.168.1.101", "device_id":001, "user_id":"0001", "time": "1751453534"}
+[2025-07-02 17:52:19] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:52:19] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:52:20] [INFO] Shutting down...
+[2025-07-02 17:52:20] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:52:20] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:52:20] [INFO] Listener stopped successfully
+[2025-07-02 17:52:20] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 17:52:40] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 17:52:40] [INFO] Listener started successfully
+[2025-07-02 17:52:40] [INFO] Listening on port: 8000
+[2025-07-02 17:52:40] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:52:40] [INFO] [HEALTH] Backend is healthy.
+[2025-07-02 17:52:40] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 17:52:41] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:52:41] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:52:42] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:52:42] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:52:43] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:52:43] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:52:44] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:52:44] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:52:45] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:52:45] [ERROR] Retrying event: {"cmd":1234,"ip":"192.168.1.101", "device_id":001, "user_id":"0001", "time": "1751453560"}
+[2025-07-02 17:52:45] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:52:45] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:52:46] [INFO] Shutting down...
+[2025-07-02 17:52:46] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:52:46] [ERROR] Failed to POST event, retrying later: backend returned status code: 400 BAD REQUEST
+[2025-07-02 17:52:46] [INFO] Listener stopped successfully
+[2025-07-02 17:52:47] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 17:53:28] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 17:53:28] [INFO] Listener started successfully
+[2025-07-02 17:53:28] [INFO] Listening on port: 8000
+[2025-07-02 17:53:28] [INFO] [HEALTH] Backend is healthy.
+[2025-07-02 17:53:28] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 17:53:45] [INFO] Shutting down...
+[2025-07-02 17:53:45] [INFO] Listener stopped successfully
+[2025-07-02 17:53:45] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 17:54:29] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 17:54:29] [INFO] Listener started successfully
+[2025-07-02 17:54:29] [INFO] Listening on port: 8000
+[2025-07-02 17:54:29] [INFO] [HEALTH] Backend is healthy.
+[2025-07-02 17:54:29] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 17:54:37] [INFO] Shutting down...
+[2025-07-02 17:54:38] [INFO] Listener stopped successfully
+[2025-07-02 17:54:38] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 17:55:27] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 17:55:27] [INFO] Listener started successfully
+[2025-07-02 17:55:27] [INFO] Listening on port: 8000
+[2025-07-02 17:55:27] [INFO] [HEALTH] Backend is healthy.
+[2025-07-02 17:55:27] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 17:55:51] [INFO] Shutting down...
+[2025-07-02 17:55:52] [INFO] Listener stopped successfully
+[2025-07-02 17:55:52] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 17:56:22] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 17:56:22] [INFO] Listener started successfully
+[2025-07-02 17:56:22] [INFO] Listening on port: 8000
+[2025-07-02 17:56:22] [INFO] [HEALTH] Backend is healthy.
+[2025-07-02 17:56:22] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 17:56:32] [INFO] Shutting down...
+[2025-07-02 17:56:33] [INFO] Listener stopped successfully
+[2025-07-02 17:56:33] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 17:57:41] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 17:57:41] [INFO] Listener started successfully
+[2025-07-02 17:57:41] [INFO] Listening on port: 8000
+[2025-07-02 17:57:41] [INFO] [HEALTH] Backend is healthy.
+[2025-07-02 17:57:41] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 17:57:58] [INFO] Shutting down...
+[2025-07-02 17:57:59] [INFO] Listener stopped successfully
+[2025-07-02 17:57:59] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 18:09:28] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 18:09:28] [INFO] Listener started successfully
+[2025-07-02 18:09:28] [INFO] Listening on port: 8000
+[2025-07-02 18:09:28] [ERROR] [HEALTH] Backend responded with status: 500 500 INTERNAL SERVER ERROR
+[2025-07-02 18:09:28] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 18:37:25] [INFO] Shutting down...
+[2025-07-02 18:37:26] [INFO] Listener stopped successfully
+[2025-07-02 18:37:26] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 18:37:46] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 18:37:46] [INFO] Listener started successfully
+[2025-07-02 18:37:46] [INFO] Listening on port: 8000
+[2025-07-02 18:37:46] [ERROR] [HEALTH] Backend responded with status: 500 500 INTERNAL SERVER ERROR
+[2025-07-02 18:37:46] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 18:38:06] [INFO] Shutting down...
+[2025-07-02 18:38:07] [INFO] Listener stopped successfully
+[2025-07-02 18:38:07] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 18:38:25] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 18:38:25] [INFO] Listener started successfully
+[2025-07-02 18:38:25] [INFO] Listening on port: 8000
+[2025-07-02 18:38:25] [ERROR] [HEALTH] Backend responded with status: 500 500 INTERNAL SERVER ERROR
+[2025-07-02 18:38:25] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 18:38:34] [INFO] Shutting down...
+[2025-07-02 18:38:35] [INFO] Listener stopped successfully
+[2025-07-02 18:38:35] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 18:43:09] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 18:43:09] [INFO] Listener started successfully
+[2025-07-02 18:43:09] [INFO] Listening on port: 8000
+[2025-07-02 18:43:09] [ERROR] [HEALTH] Backend responded with status: 500 500 INTERNAL SERVER ERROR
+[2025-07-02 18:43:09] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 18:43:20] [INFO] Shutting down...
+[2025-07-02 18:43:21] [INFO] Listener stopped successfully
+[2025-07-02 18:43:21] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 18:43:23] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 18:43:23] [INFO] Listener started successfully
+[2025-07-02 18:43:23] [INFO] Listening on port: 8000
+[2025-07-02 18:43:23] [ERROR] [HEALTH] Backend responded with status: 500 500 INTERNAL SERVER ERROR
+[2025-07-02 18:43:23] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 18:43:25] [INFO] Shutting down...
+[2025-07-02 18:43:26] [INFO] Listener stopped successfully
+[2025-07-02 18:43:26] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 18:45:00] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 18:45:00] [INFO] Listener started successfully
+[2025-07-02 18:45:00] [INFO] Listening on port: 8000
+[2025-07-02 18:45:00] [INFO] [HEALTH] Backend is healthy.
+[2025-07-02 18:45:00] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 18:47:55] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:47:56] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:47:57] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:47:58] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:47:59] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:48:00] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.101", "device_id":"0001", "user_id":"0001", "time": "1751456875"}
+[2025-07-02 18:48:00] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:48:00] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:48:01] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:48:02] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:48:03] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:48:04] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:48:05] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.101", "device_id":"0001", "user_id":"0001", "time": "1751456876"}
+[2025-07-02 18:48:05] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:48:05] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:48:06] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:48:07] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:48:08] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:48:09] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:48:10] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.101", "device_id":"0001", "user_id":"0001", "time": "1751456877"}
+[2025-07-02 18:48:10] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:48:10] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:48:11] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:48:12] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:48:13] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:48:14] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:48:15] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.101", "device_id":"0001", "user_id":"0001", "time": "1751456878"}
+[2025-07-02 18:48:15] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:48:15] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:48:16] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:48:17] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:48:18] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:48:19] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:48:20] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.101", "device_id":"0001", "user_id":"0001", "time": "1751456879"}
+[2025-07-02 18:48:20] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:48:20] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:48:21] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:48:22] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:48:23] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:48:24] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:48:25] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.101", "device_id":"0001", "user_id":"0001", "time": "1751456875"}
+[2025-07-02 18:48:25] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:48:25] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:48:26] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:48:30] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.101", "device_id":"0001", "user_id":"0001", "time": "1751456880"}
+[2025-07-02 18:48:35] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.101", "device_id":"0001", "user_id":"0001", "time": "1751456881"}
+[2025-07-02 18:48:40] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.101", "device_id":"0001", "user_id":"0001", "time": "1751456882"}
+[2025-07-02 18:48:45] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.101", "device_id":"0001", "user_id":"0001", "time": "1751456883"}
+[2025-07-02 18:48:50] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.101", "device_id":"0001", "user_id":"0001", "time": "1751456884"}
+[2025-07-02 18:48:55] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.101", "device_id":"0001", "user_id":"0001", "time": "1751456876"}
+[2025-07-02 18:49:00] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.101", "device_id":"0001", "user_id":"0001", "time": "1751456885"}
+[2025-07-02 18:49:05] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.101", "device_id":"0001", "user_id":"0001", "time": "1751456886"}
+[2025-07-02 18:49:10] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.101", "device_id":"0001", "user_id":"0001", "time": "1751456887"}
+[2025-07-02 18:49:15] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.101", "device_id":"0001", "user_id":"0001", "time": "1751456888"}
+[2025-07-02 18:49:20] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.101", "device_id":"0001", "user_id":"0001", "time": "1751456889"}
+[2025-07-02 18:49:25] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.101", "device_id":"0001", "user_id":"0001", "time": "1751456877"}
+[2025-07-02 18:49:30] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.101", "device_id":"0001", "user_id":"0001", "time": "1751456890"}
+[2025-07-02 18:49:35] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.101", "device_id":"0001", "user_id":"0001", "time": "1751456891"}
+[2025-07-02 18:49:40] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.101", "device_id":"0001", "user_id":"0001", "time": "1751456892"}
+[2025-07-02 18:49:45] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.101", "device_id":"0001", "user_id":"0001", "time": "1751456893"}
+[2025-07-02 18:49:50] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.101", "device_id":"0001", "user_id":"0001", "time": "1751456894"}
+[2025-07-02 18:49:55] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.101", "device_id":"0001", "user_id":"0001", "time": "1751456878"}
+[2025-07-02 18:49:58] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": read tcp 127.0.0.1:60313->127.0.0.1:5000: wsarecv: An existing connection was forcibly closed by the remote host.
+[2025-07-02 18:49:59] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:50:00] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:50:00] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.101", "device_id":"0001", "user_id":"0001", "time": "1751456895"}
+[2025-07-02 18:50:00] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:50:01] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:50:02] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:50:03] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:50:04] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:50:05] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:50:05] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.101", "device_id":"0001", "user_id":"0001", "time": "1751456896"}
+[2025-07-02 18:50:05] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:50:06] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:50:07] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:50:08] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:50:09] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:50:10] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.101", "device_id":"0001", "user_id":"0001", "time": "1751456897"}
+[2025-07-02 18:50:10] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:50:10] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:50:11] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:50:12] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:50:13] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:50:14] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:50:15] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.101", "device_id":"0001", "user_id":"0001", "time": "1751456898"}
+[2025-07-02 18:50:15] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:50:15] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:50:16] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:50:17] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:50:18] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:50:19] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:50:20] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.101", "device_id":"0001", "user_id":"0001", "time": "1751456899"}
+[2025-07-02 18:50:20] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:50:20] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:50:21] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:50:22] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:50:23] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:50:24] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:50:25] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:50:25] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.101", "device_id":"0001", "user_id":"0001", "time": "1751456879"}
+[2025-07-02 18:50:25] [ERROR] Failed to POST event, retrying later: Post "http://127.0.0.1:5000/event": dial tcp 127.0.0.1:5000: connectex: No connection could be made because the target machine actively refused it.
+[2025-07-02 18:50:26] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:50:27] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:50:28] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:50:29] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:50:30] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.101", "device_id":"0001", "user_id":"0001", "time": "1751456900"}
+[2025-07-02 18:50:30] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:50:30] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:50:31] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:50:32] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:50:33] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:50:34] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:50:35] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:50:35] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.101", "device_id":"0001", "user_id":"0001", "time": "1751456901"}
+[2025-07-02 18:50:35] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:50:36] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:50:37] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:50:38] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:50:39] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:50:40] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:50:40] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.101", "device_id":"0001", "user_id":"0001", "time": "1751456902"}
+[2025-07-02 18:50:40] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:50:41] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:50:42] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:50:43] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:50:44] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:50:45] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:50:45] [ERROR] Retrying event: {"site_id":1234,"ip":"192.168.1.101", "device_id":"0001", "user_id":"0001", "time": "1751456903"}
+[2025-07-02 18:50:45] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:50:45] [INFO] Shutting down...
+[2025-07-02 18:50:46] [ERROR] Failed to POST event, retrying later: backend returned status code: 500 INTERNAL SERVER ERROR
+[2025-07-02 18:50:46] [INFO] Listener stopped successfully
+[2025-07-02 18:50:46] [INFO] Hikvision SDK cleaned up successfully
+[2025-07-02 18:53:54] [INFO] Hikvision SDK initialized successfully
+[2025-07-02 18:53:54] [INFO] Listener started successfully
+[2025-07-02 18:53:54] [INFO] Listening on port: 8000
+[2025-07-02 18:53:54] [INFO] [HEALTH] Backend is healthy.
+[2025-07-02 18:53:54] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-02 18:57:50] [INFO] Shutting down...
+[2025-07-02 18:57:51] [INFO] Listener stopped successfully
+[2025-07-02 18:57:51] [INFO] Hikvision SDK cleaned up successfully

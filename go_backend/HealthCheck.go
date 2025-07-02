@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
 	"net/http"
 	"time"
@@ -18,12 +19,27 @@ func StartHealthCheck() {
 
 func checkBackend() {
 	client := http.Client{Timeout: 2 * time.Second}
-	resp, err := client.Get(AppConfig.EventEndpoint)
+	resp, err := client.Get(AppConfig.HealthEndpoint)
 	if err != nil || resp.StatusCode >= 400 {
 		Error(fmt.Sprintf("[HEALTH] Backend responded with status: %d %s", resp.StatusCode, resp.Status))
 		return
 	}
-	Info("[HEALTH] Backend is reachable")
+	defer resp.Body.Close()
+
+	if resp.StatusCode >= 400 {
+		Error(fmt.Sprintf("[HEALTH] Backend unhealthy - status: %d %s", resp.StatusCode, resp.Status))
+		return
+	}
+
+	var result map[string]interface{}
+	json.NewDecoder(resp.Body).Decode(&result)
+
+	if result["status"] != "healthy" {
+		Error(fmt.Sprintf("[HEALTH] Backend responded but status not healthy: %v", result))
+		return
+	}
+
+	Info("[HEALTH] Backend is healthy.")
 }
 
 func checkQueueStatus() {
