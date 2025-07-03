@@ -11,3 +11,4 @@ except Exception as e:
     config = {}
 
 SECRET = config.get("AuthToken", "")
+DB_URI = config.get("DatabaseURI", "sqlite:///./data/events.db")

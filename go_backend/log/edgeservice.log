@@ -1,0 +1,16 @@
+[2025-07-03 16:26:45] [INFO] Hikvision SDK initialized successfully
+[2025-07-03 16:26:45] [INFO] Listener started successfully
+[2025-07-03 16:26:45] [INFO] Listening on port: 8000
+[2025-07-03 16:26:45] [INFO] [HEALTH] Backend is healthy.
+[2025-07-03 16:26:45] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-03 16:56:45] [INFO] [HEALTH] Backend is healthy.
+[2025-07-03 16:56:45] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-03 17:26:45] [INFO] [HEALTH] Backend is healthy.
+[2025-07-03 17:26:45] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-03 17:56:47] [INFO] [HEALTH] Backend is healthy.
+[2025-07-03 17:56:47] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-03 18:26:47] [INFO] [HEALTH] Backend is healthy.
+[2025-07-03 18:26:47] [WARN] [HEALTH] Event queue is empty - no event detected
+[2025-07-03 18:29:11] [INFO] Shutting down...
+[2025-07-03 18:29:12] [INFO] Listener stopped successfully
+[2025-07-03 18:29:12] [INFO] Hikvision SDK cleaned up successfully

@@ -1,0 +1,41 @@
+2025-07-03 16:11:37,582 [INFO] main Starting server
+2025-07-03 16:11:37,602 [WARNING] werkzeug  * Debugger is active!
+2025-07-03 16:11:37,605 [INFO] werkzeug  * Debugger PIN: 115-456-951
+2025-07-03 16:13:11,615 [INFO] werkzeug  * Detected change in 'E:\\Projects\\hik_fscan\\python_backend\\api\\routes.py', reloading
+2025-07-03 16:13:12,891 [INFO] main Starting server
+2025-07-03 16:13:12,910 [WARNING] werkzeug  * Debugger is active!
+2025-07-03 16:13:12,913 [INFO] werkzeug  * Debugger PIN: 115-456-951
+2025-07-03 16:13:50,289 [INFO] werkzeug  * Detected change in 'E:\\Projects\\hik_fscan\\python_backend\\api\\routes.py', reloading
+2025-07-03 16:13:51,574 [INFO] main Starting server
+2025-07-03 16:13:51,594 [WARNING] werkzeug  * Debugger is active!
+2025-07-03 16:13:51,597 [INFO] werkzeug  * Debugger PIN: 115-456-951
+2025-07-03 16:15:30,503 [INFO] werkzeug  * Detected change in 'E:\\Projects\\hik_fscan\\python_backend\\notifier\\telegram.py', reloading
+2025-07-03 16:15:31,792 [INFO] main Starting server
+2025-07-03 16:15:31,812 [WARNING] werkzeug  * Debugger is active!
+2025-07-03 16:15:31,815 [INFO] werkzeug  * Debugger PIN: 115-456-951
+2025-07-03 16:15:41,921 [INFO] werkzeug  * Detected change in 'E:\\Projects\\hik_fscan\\python_backend\\notifier\\telegram.py', reloading
+2025-07-03 16:15:43,201 [INFO] main Starting server
+2025-07-03 16:15:43,221 [WARNING] werkzeug  * Debugger is active!
+2025-07-03 16:15:43,224 [INFO] werkzeug  * Debugger PIN: 115-456-951
+2025-07-03 16:15:57,364 [INFO] werkzeug  * Detected change in 'E:\\Projects\\hik_fscan\\python_backend\\notifier\\telegram.py', reloading
+2025-07-03 16:15:58,640 [INFO] main Starting server
+2025-07-03 16:15:58,660 [WARNING] werkzeug  * Debugger is active!
+2025-07-03 16:15:58,663 [INFO] werkzeug  * Debugger PIN: 115-456-951
+2025-07-03 16:16:04,727 [INFO] werkzeug  * Detected change in 'E:\\Projects\\hik_fscan\\python_backend\\notifier\\telegram.py', reloading
+2025-07-03 16:16:05,962 [INFO] main Starting server
+2025-07-03 16:16:05,981 [WARNING] werkzeug  * Debugger is active!
+2025-07-03 16:16:05,984 [INFO] werkzeug  * Debugger PIN: 115-456-951
+2025-07-03 16:16:11,014 [INFO] werkzeug 127.0.0.1 - - [03/Jul/2025 16:16:11] "POST /event HTTP/1.1" 200 -
+2025-07-03 16:17:15,627 [INFO] werkzeug  * Detected change in 'E:\\Projects\\hik_fscan\\python_backend\\auth\\auth.py', reloading
+2025-07-03 16:17:16,913 [INFO] main Starting server
+2025-07-03 16:17:16,933 [WARNING] werkzeug  * Debugger is active!
+2025-07-03 16:17:16,937 [INFO] werkzeug  * Debugger PIN: 115-456-951
+2025-07-03 16:26:39,831 [INFO] werkzeug 127.0.0.1 - - [03/Jul/2025 16:26:39] "POST /event HTTP/1.1" 200 -
+2025-07-03 16:26:45,727 [INFO] werkzeug 127.0.0.1 - - [03/Jul/2025 16:26:45] "GET /health HTTP/1.1" 200 -
+2025-07-03 16:30:54,519 [INFO] werkzeug 127.0.0.1 - - [03/Jul/2025 16:30:54] "POST /event HTTP/1.1" 200 -
+2025-07-03 16:52:48,733 [INFO] werkzeug 127.0.0.1 - - [03/Jul/2025 16:52:48] "POST /event HTTP/1.1" 200 -
+2025-07-03 16:56:45,730 [INFO] werkzeug 127.0.0.1 - - [03/Jul/2025 16:56:45] "GET /health HTTP/1.1" 200 -
+2025-07-03 17:26:45,732 [INFO] werkzeug 127.0.0.1 - - [03/Jul/2025 17:26:45] "GET /health HTTP/1.1" 200 -
+2025-07-03 17:50:38,300 [INFO] werkzeug 127.0.0.1 - - [03/Jul/2025 17:50:38] "POST /event HTTP/1.1" 200 -
+2025-07-03 17:56:47,380 [INFO] werkzeug 127.0.0.1 - - [03/Jul/2025 17:56:47] "GET /health HTTP/1.1" 200 -
+2025-07-03 18:26:47,385 [INFO] werkzeug 127.0.0.1 - - [03/Jul/2025 18:26:47] "GET /health HTTP/1.1" 200 -

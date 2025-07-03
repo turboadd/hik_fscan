@@ -1,4 +1,7 @@
 {
     "AuthToken": "12345678",
-    "listen_port": 5000
+    "listen_port": 5000,
+    "DatabaseURI": "sqlite:///./data/events.db",
+    "TelegramBotToken": "7535091524:AAE_Kn-AvAQNcuikyUChyXS9DlS4vvY2o7Q",
+    "TelegramChatID": "-4927382390"
 }
